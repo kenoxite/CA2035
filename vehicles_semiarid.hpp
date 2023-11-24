@@ -275,6 +275,19 @@
 		{
 			"I_CA2035_D_Soldier_F"
 		};
+        
+        hiddenSelectionsTextures[]=
+        {
+            "\CA2035\air\heli_light_03\data\heli_light_03_base_CA2035_ard3_co.paa"
+        };
+
+        textureList[]=
+        {
+            "CA2035_ARD",
+            1,
+            "CA2035_TAN",
+            0
+        };
     };
     // MK6 Mortar
     class I_CA2035_D_Mk6_Mortar_F : I_CA2035_T_Mk6_Mortar_F {
