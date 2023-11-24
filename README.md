@@ -1,4 +1,4 @@
-![2035 Central Africa](https://i.imgur.com/Qm3qVfA.png)
+![2035 Central Africa](https://i.imgur.com/nirrPkO.png)
 #### Central African factions set in 2035 for Arma 3
  
 You can check the already packed version by visiting this mod's [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2292992313) page.
