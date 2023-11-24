@@ -773,14 +773,8 @@
         };
         hiddenSelectionsTextures[]=
         {
-            // "a3\Armor_F_Exp\MBT_02\Data\MBT_02_body_ghex_CO.paa",
-            // "a3\Armor_F_Exp\MBT_02\Data\MBT_02_scorcher_ghex_CO.paa",
-            // "a3\Armor_F_Exp\MBT_02\Data\MBT_02_ghex_CO.paa",
-            // "a3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa",
-            // "A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa"
-
             "\CA2035\armor\mbt_02\data\MBT_02_body_CA2035_trp1_CO.paa",
-            "A3\Armor_F_Exp\MBT_01\data\MBT_01_scorcher_olive_CO.paa",
+            "\CA2035\armor\mbt_01\data\mbt_01_scorcher_CA2035_trp1_co.paa",
             "\CA2035\armor\mbt_02\data\MBT_02_CA2035_trp1_CO.paa",
             "\CA2035\data\vehicles\turret_CA2035_trp1_co.paa",
             "A3\Armor_F\Data\camonet_nato_green_co.paa"
@@ -799,7 +793,7 @@
                 textures[]=
                 {                    
                     "\CA2035\armor\mbt_02\data\MBT_02_body_CA2035_mgreen_CO.paa",
-                    "A3\Armor_F_Exp\MBT_01\data\MBT_01_scorcher_olive_CO.paa",
+                    "\CA2035\armor\mbt_01\data\mbt_01_scorcher_CA2035_mgreen_co.paa",
                     "\CA2035\armor\mbt_02\data\MBT_02_CA2035_mgreen_CO.paa",
                     "\CA2035\data\vehicles\turret_CA2035_mgreen_co.paa",
                     "A3\Armor_F\Data\camonet_green_co.paa"
@@ -816,7 +810,7 @@
                 textures[]=
                 {
                     "\CA2035\armor\MBT_02\data\MBT_02_body_CA2035_ard3_CO.paa",
-                    "A3\armor_f_gamma\MBT_01\data\MBT_01_scorcher_co.paa",
+                    "\CA2035\armor\mbt_01\data\mbt_01_scorcher_CA2035_ard3_co.paa",
                     "\CA2035\armor\MBT_02\data\MBT_02_CA2035_ard3_CO.paa",
                     "\CA2035\data\vehicles\turret_CA2035_ard3_co.paa",
                     "A3\Armor_F\Data\camonet_nato_desert_co.paa"
@@ -833,7 +827,7 @@
                 textures[]=
                 {
                     "\CA2035\armor\mbt_02\data\MBT_02_body_CA2035_trp1_CO.paa",
-                    "A3\Armor_F_Exp\MBT_01\data\MBT_01_scorcher_olive_CO.paa",
+                    "\CA2035\armor\mbt_01\data\mbt_01_scorcher_CA2035_trp1_co.paa",
                     "\CA2035\armor\mbt_02\data\MBT_02_CA2035_trp1_CO.paa",
                     "\CA2035\data\vehicles\turret_CA2035_trp1_co.paa",
                     "A3\Armor_F\Data\camonet_nato_green_co.paa"
@@ -850,7 +844,7 @@
                 textures[]=
                 {                    
                     "\CA2035\armor\mbt_02\data\MBT_02_body_CA2035_tan_CO.paa",
-                    "A3\armor_f_gamma\MBT_01\data\MBT_01_scorcher_co.paa",
+                    "\CA2035\armor\mbt_01\data\mbt_01_scorcher_CA2035_tan_co.paa",
                     "\CA2035\armor\mbt_02\data\MBT_02_CA2035_tan_CO.paa",
                     "\CA2035\data\vehicles\turret_CA2035_tan_co.paa",
                     "A3\Armor_F\Data\camonet_nato_desert_co.paa"
@@ -1062,31 +1056,79 @@
 		{
 			"camo"
 		};
-		hiddenSelectionsTextures[]=
-		{
-			"\A3\Air_F_EPB\Heli_Light_03\data\Heli_Light_03_base_CO.paa"
-		};
 
-		textureList[]=
-		{
-			"CA2035",
-			1
-		};
-
-		class TextureSources
-		{
-			class CA2035
-			{
-				author="kenoxite";
-				displayName="CA2035";
-				faction="IND_CA2035_T_F";
-				textures[]=
-				{
-                    "\A3\Air_F_EPB\Heli_Light_03\data\Heli_Light_03_base_CO.paa"
-				};
-			};
+        textureList[]=
+        {
+            "CA2035_GREEN",
+            0,
+            "CA2035_ARD",
+            0,
+            "CA2035_TRP",
+            1,
+            "CA2035_TAN",
+            0
         };
-		
+        hiddenSelectionsTextures[]=
+        {
+            "\CA2035\air\heli_light_03\data\heli_light_03_base_CA2035_trp1_co.paa"
+        };
+
+        class TextureSources
+        {
+            class CA2035_GREEN
+            {
+                author="kenoxite";
+                displayName="$STR_A3_TEXTURESOURCES_GREEN0";
+                factions[]=
+                {
+                    "IND_CA2035_T_F"
+                };
+                textures[]=
+                {                    
+                    "\CA2035\air\heli_light_03\data\heli_light_03_base_CA2035_mgreen_co.paa"
+                };
+            };
+            class CA2035_ard1
+            {
+                author="kenoxite";
+                displayName="CAAF (Arid)";
+                factions[]=
+                {
+                    "IND_CA2035_D_F"
+                };
+                textures[]=
+                {
+                    "\CA2035\air\heli_light_03\data\heli_light_03_base_CA2035_ard3_co.paa"
+                };
+            };
+            class CA2035_TRP
+            {
+                author="kenoxite";
+                displayName="CAAF (Tropic)";
+                factions[]=
+                {
+                    "IND_CA2035_T_F"
+                };
+                textures[]=
+                {
+                    "\CA2035\air\heli_light_03\data\heli_light_03_base_CA2035_trp1_co.paa"
+                };
+            };
+            class CA2035_TAN
+            {
+                author="kenoxite";
+                displayName="$STR_A3_TEXTURESOURCES_Sand0";
+                factions[]=
+                {
+                    "IND_CA2035_D_F"
+                };
+                textures[]=
+                {                    
+                    "\CA2035\air\heli_light_03\data\heli_light_03_base_CA2035_tan_co.paa"
+                };
+            };
+        };
+        
 		class TransportBackpacks
 		{
 			bag_xx(B_FieldPack_green_F,1);

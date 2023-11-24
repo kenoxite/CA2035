@@ -191,7 +191,7 @@
         hiddenSelectionsTextures[]=
         {
             "\CA2035\armor\MBT_02\data\MBT_02_body_CA2035_ard3_CO.paa",
-            "A3\armor_f_gamma\MBT_01\data\MBT_01_scorcher_co.paa",
+            "\CA2035\armor\mbt_01\data\mbt_01_scorcher_CA2035_ard3_co.paa",
             "\CA2035\armor\MBT_02\data\MBT_02_CA2035_ard3_CO.paa",
             "\CA2035\data\vehicles\turret_CA2035_ard3_co.paa",
             "A3\Armor_F\Data\camonet_nato_desert_co.paa"
@@ -247,6 +247,19 @@
 		{
 			"I_CA2035_D_Soldier_F"
 		};
+        
+        hiddenSelectionsTextures[]=
+        {
+            "\CA2035\air\heli_light_03\data\heli_light_03_base_CA2035_ard3_co.paa"
+        };
+
+        textureList[]=
+        {
+            "CA2035_ARD",
+            1,
+            "CA2035_TAN",
+            0
+        };
     };
     // WY-55 Unarmed
     class I_CA2035_D_WY_55_Unarmed_F : I_CA2035_T_WY_55_Unarmed_F {
