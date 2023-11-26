@@ -120,7 +120,6 @@
 
         magazines[] = {
             mag_7(75rnd_762x39_AK12_Mag_F),
-            mag_4(1Rnd_HE_Grenade_shell),
             mag_3(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
             mag_1(SmokeShell),
@@ -129,7 +128,6 @@
             };
         respawnMagazines[] = {
             mag_7(75rnd_762x39_AK12_Mag_F),
-            mag_4(1Rnd_HE_Grenade_shell),
             mag_3(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
             mag_1(SmokeShell),
