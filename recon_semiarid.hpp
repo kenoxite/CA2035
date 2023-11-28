@@ -42,20 +42,20 @@
         RANDOM_HEADGEAR_RECON_ARID();
 
         weapons[] = {
-            "arifle_AK12_arid_aco_snds_F",
+            "arifle_AK12_sarid_aco_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
             };
         respawnWeapons[] = {
-            "arifle_AK12_arid_aco_snds_F",
+            "arifle_AK12_sarid_aco_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
             };
 
         magazines[] = {
-            mag_10(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_10(30rnd_762x39_AK12_Mag_F),
             mag_3(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
             mag_1(SmokeShell),
@@ -63,7 +63,7 @@
             mag_2(Chemlight_yellow)
             };
         respawnMagazines[] = {
-            mag_10(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_10(30rnd_762x39_AK12_Mag_F),
             mag_3(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
             mag_1(SmokeShell),
@@ -87,14 +87,14 @@
         backpack = "B_FieldPack_LAT_Ard";
 
         weapons[] = {
-            "arifle_AK12_arid_aco_snds_F",
+            "arifle_AK12_sarid_aco_snds_F",
             "launch_RPG32_green_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
             };
         respawnWeapons[] = {
-            "arifle_AK12_arid_aco_snds_F",
+            "arifle_AK12_sarid_aco_snds_F",
             "launch_RPG32_green_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
@@ -102,7 +102,7 @@
             };
 
         magazines[] = {
-            mag_6(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_6(30rnd_762x39_AK12_Mag_F),
             mag_3(11Rnd_45ACP_Mag),
             mag_1(RPG32_F),
             mag_2(MiniGrenade),
@@ -111,7 +111,7 @@
             mag_2(Chemlight_yellow)
             };
         respawnMagazines[] = {
-            mag_6(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_6(30rnd_762x39_AK12_Mag_F),
             mag_3(11Rnd_45ACP_Mag),
             mag_1(RPG32_F),
             mag_2(MiniGrenade),
@@ -134,13 +134,13 @@
         RANDOM_HEADGEAR_RECON_ARID();
 
         weapons[] = {
-            "arifle_RPK12_arid_snds_aco_F",
+            "arifle_RPK12_sarid_snds_aco_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
             };
         respawnWeapons[] = {
-            "arifle_RPK12_arid_snds_aco_F",
+            "arifle_RPK12_sarid_snds_aco_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
@@ -179,13 +179,13 @@
         RANDOM_HEADGEAR_RECON_ARID();
 
         weapons[] = {
-            "arifle_AK12_GL_arid_aco_snds_F",
+            "arifle_AK12_GL_sarid_aco_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
             };
         respawnWeapons[] = {
-            "arifle_AK12_GL_arid_aco_snds_F",
+            "arifle_AK12_GL_sarid_aco_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
@@ -194,7 +194,7 @@
         // backpack = "B_FieldPack_Recon_GL_Ard";
 
         magazines[] = {
-            mag_6(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_6(30rnd_762x39_AK12_Mag_F),
             mag_4(1Rnd_HE_Grenade_shell),
             mag_3(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
@@ -203,7 +203,7 @@
             mag_2(Chemlight_yellow)
             };
         respawnMagazines[] = {
-            mag_6(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_6(30rnd_762x39_AK12_Mag_F),
             mag_4(1Rnd_HE_Grenade_shell),
             mag_3(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
@@ -226,14 +226,14 @@
         RANDOM_HEADGEAR_RECON_ARID();
 
         weapons[] = {
-            "arifle_AK12_GL_arid_aco_snds_F",
+            "arifle_AK12_GL_sarid_aco_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put",
             "Laserdesignator"
             };
         respawnWeapons[] = {
-            "arifle_AK12_GL_arid_aco_snds_F",
+            "arifle_AK12_GL_sarid_aco_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put",
@@ -243,7 +243,7 @@
         // backpack = "B_FieldPack_Recon_GL_Ard";
 
         magazines[] = {
-            mag_6(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_6(30rnd_762x39_AK12_Mag_F),
             mag_4(1Rnd_HE_Grenade_shell),
             mag_3(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
@@ -253,7 +253,7 @@
             mag_1(Laserbatteries)
             };
         respawnMagazines[] = {
-            mag_6(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_6(30rnd_762x39_AK12_Mag_F),
             mag_4(1Rnd_HE_Grenade_shell),
             mag_3(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
@@ -277,13 +277,13 @@
         RANDOM_HEADGEAR_RECON_ARID();
 
         weapons[] = {
-            "arifle_AK12_arid_aco_snds_F",
+            "arifle_AK12_sarid_aco_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
             };
         respawnWeapons[] = {
-            "arifle_AK12_arid_aco_snds_F",
+            "arifle_AK12_sarid_aco_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
@@ -293,7 +293,7 @@
         // backpack="B_AssaultPack_rgr_BTReconMedic";
 
         magazines[] = {
-            mag_6(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_6(30rnd_762x39_AK12_Mag_F),
             mag_3(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
             mag_1(SmokeShell),
@@ -301,7 +301,7 @@
             mag_2(Chemlight_yellow)
             };
         respawnMagazines[] = {
-            mag_6(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_6(30rnd_762x39_AK12_Mag_F),
             mag_3(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
             mag_1(SmokeShell),
@@ -350,13 +350,13 @@
         RANDOM_HEADGEAR_RECON_ARID();
 
         weapons[] = {
-            "arifle_AK12_arid_aco_snds_F",
+            "arifle_AK12_sarid_aco_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
             };
         respawnWeapons[] = {
-            "arifle_AK12_arid_aco_snds_F",
+            "arifle_AK12_sarid_aco_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Throw",
             "Put"
@@ -366,7 +366,7 @@
         // backpack = "B_Kitbag_rgr_BTReconExp_F";
 
         magazines[] = {
-            mag_6(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_6(30rnd_762x39_AK12_Mag_F),
             mag_3(11Rnd_45ACP_Mag),
             mag_3(APERSMine_Range_Mag),
             mag_2(MiniGrenade),
@@ -375,7 +375,7 @@
             mag_2(Chemlight_yellow)
             };
         respawnMagazines[] = {
-            mag_6(30rnd_762x39_AK12_Arid_Mag_F),
+            mag_6(30rnd_762x39_AK12_Mag_F),
             mag_3(11Rnd_45ACP_Mag),
             mag_3(APERSMine_Range_Mag),
             mag_2(MiniGrenade),
@@ -397,14 +397,14 @@
         RANDOM_HEADGEAR_RECON_ARID();
         
         weapons[] = {
-            "arifle_AK12_arid_mrco_pointer_snds_F",
+            "arifle_AK12_sarid_mrco_pointer_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Rangefinder",
             "Throw",
             "Put"
             };
         respawnWeapons[] = {
-            "arifle_AK12_arid_mrco_pointer_snds_F",
+            "arifle_AK12_sarid_mrco_pointer_snds_F",
             "hgun_Pistol_heavy_01_F",
             "Rangefinder",
             "Throw",
@@ -435,8 +435,8 @@
         // backpack = "B_FieldPack_Recon_TL_Ard";
 
         magazines[] = {
-            mag_4(30rnd_762x39_AK12_Arid_Mag_F),
-            mag_2(30rnd_762x39_AK12_Arid_Mag_Tracer_F),
+            mag_4(30rnd_762x39_AK12_Mag_F),
+            mag_2(30rnd_762x39_AK12_Mag_Tracer_F),
             mag_2(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
             mag_1(SmokeShell),
@@ -446,8 +446,8 @@
             mag_2(Chemlight_yellow)
             };
         respawnMagazines[] = {
-            mag_4(30rnd_762x39_AK12_Arid_Mag_F),
-            mag_2(30rnd_762x39_AK12_Arid_Mag_Tracer_F),
+            mag_4(30rnd_762x39_AK12_Mag_F),
+            mag_2(30rnd_762x39_AK12_Mag_Tracer_F),
             mag_2(11Rnd_45ACP_Mag),
             mag_2(MiniGrenade),
             mag_1(SmokeShell),

@@ -80,14 +80,14 @@
         };
 
         weapons[] = {
-            "arifle_AK12_arid_mrco_pointer_F",
+            "arifle_AK12_sarid_mrco_pointer_F",
             "hgun_Pistol_heavy_01_F",
             "Laserdesignator_03",
             "Throw",
             "Put"
             };
         respawnWeapons[] = {
-            "arifle_AK12_arid_mrco_pointer_F",
+            "arifle_AK12_sarid_mrco_pointer_F",
             "hgun_Pistol_heavy_01_F",
             "Laserdesignator_03",
             "Throw",

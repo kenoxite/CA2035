@@ -70,14 +70,14 @@
         editorPreview = "\CA2035\indep\previews\t\I_CA2035_T_Spotter_F.jpg";
 
         weapons[] = {
-            "arifle_AK12_lush_mrco_pointer_F",
+            "arifle_AK12_trp_mrco_pointer_F",
             "hgun_Pistol_heavy_01_green_F",
             "Laserdesignator_03",
 			"Throw",
 			"Put"
             };
         respawnWeapons[] = {
-            "arifle_AK12_lush_mrco_pointer_F",
+            "arifle_AK12_trp_mrco_pointer_F",
             "hgun_Pistol_heavy_01_green_F",
             "Laserdesignator_03",
 			"Throw",

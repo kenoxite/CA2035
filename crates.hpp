@@ -43,14 +43,14 @@
             mag_xx(10Rnd_9x21_Mag,50);
             mag_xx(SmokeShellRed,50);
             mag_xx(SmokeShellGreen,50);
-            mag_xx(30rnd_762x39_AK12_Lush_Mag_F,50);
+            mag_xx(30rnd_762x39_AK12_Mag_F,50);
             mag_xx(11Rnd_45ACP_Mag,50);
             mag_xx(SmokeShellBlue,50);
             mag_xx(APERSMine_Range_Mag,50);
             mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
             mag_xx(APERSBoundingMine_Range_Mag,50);
             mag_xx(SLAMDirectionalMine_Wire_Mag,50);
-            mag_xx(30rnd_762x39_AK12_Lush_Mag_Tracer_F,50);
+            mag_xx(30rnd_762x39_AK12_Mag_Tracer_F,50);
             mag_xx(5Rnd_127x108_Mag,50);
         };
         class TransportWeapons {
@@ -68,7 +68,6 @@
             mag_xx(75rnd_762x39_AK12_Mag_F,50);
             mag_xx(1Rnd_HE_Grenade_shell,50);
             mag_xx(10Rnd_9x21_Mag,50);
-            mag_xx(30rnd_762x39_AK12_Lush_Mag_F,50);
             mag_xx(11Rnd_45ACP_Mag,50);
             mag_xx(20Rnd_762x51_Mag,50);
             mag_xx(5Rnd_127x108_Mag,50);
@@ -84,20 +83,19 @@
             weap_xx(arifle_AK12_aco_F,10);
             weap_xx(hgun_Pistol_01_F,10);
             weap_xx(arifle_AK12_GL_fl_aco_F,10);
-            weap_xx(arifle_AK12_lush_aco_snds_F,10);
+            weap_xx(arifle_AK12_trp_aco_snds_F,10);
             weap_xx(hgun_Pistol_heavy_01_green_F,10);
-            weap_xx(arifle_RPK12_lush_snds_aco_F,10);
-            weap_xx(arifle_AK12_GL_lush_aco_snds_F,10);
+            weap_xx(arifle_RPK12_trp_snds_aco_F,10);
+            weap_xx(arifle_AK12_GL_trp_aco_snds_F,10);
             weap_xx(srifle_EBR_Black_snds_DMS_bipod_F,10);
-            weap_xx(arifle_AK12_lush_mrco_pointer_snds_F,10);
+            weap_xx(arifle_AK12_trp_mrco_pointer_snds_F,10);
             weap_xx(srifle_GM6_LRPS_F,10);
-            weap_xx(arifle_AK12_lush_mrco_pointer_F,10);
+            weap_xx(arifle_AK12_trp_mrco_pointer_F,10);
         };
         class TransportItems {
             item_xx(acc_flashlight,10);
             item_xx(optic_MRCO,10);
             item_xx(optic_Aco,10);
-            item_xx(muzzle_snds_B_lush_F,10);
             item_xx(muzzle_snds_B,10);
             item_xx(optic_DMS,10);
             item_xx(bipod_01_F_blk,10);
@@ -223,14 +221,14 @@
             mag_xx(10Rnd_9x21_Mag,50);
             mag_xx(SmokeShellRed,50);
             mag_xx(SmokeShellGreen,50);
-            mag_xx(30rnd_762x39_AK12_Lush_Mag_F,50);
+            mag_xx(30rnd_762x39_AK12_Mag_F,50);
             mag_xx(11Rnd_45ACP_Mag,50);
             mag_xx(SmokeShellBlue,50);
             mag_xx(APERSMine_Range_Mag,50);
             mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
             mag_xx(APERSBoundingMine_Range_Mag,50);
             mag_xx(SLAMDirectionalMine_Wire_Mag,50);
-            mag_xx(30rnd_762x39_AK12_Lush_Mag_Tracer_F,50);
+            mag_xx(30rnd_762x39_AK12_Mag_Tracer_F,50);
             mag_xx(5Rnd_127x108_Mag,50);
         };
         class TransportWeapons {
@@ -244,14 +242,14 @@
             weap_xx(arifle_AK12_aco_F,10);
             weap_xx(hgun_Pistol_01_F,10);
             weap_xx(arifle_AK12_GL_fl_aco_F,10);
-            weap_xx(arifle_AK12_lush_aco_snds_F,10);
+            weap_xx(arifle_AK12_trp_aco_snds_F,10);
             weap_xx(hgun_Pistol_heavy_01_green_F,10);
-            weap_xx(arifle_RPK12_lush_snds_aco_F,10);
-            weap_xx(arifle_AK12_GL_lush_aco_snds_F,10);
+            weap_xx(arifle_RPK12_trp_snds_aco_F,10);
+            weap_xx(arifle_AK12_GL_trp_aco_snds_F,10);
             weap_xx(srifle_EBR_Black_snds_DMS_bipod_F,10);
-            weap_xx(arifle_AK12_lush_mrco_pointer_snds_F,10);
+            weap_xx(arifle_AK12_trp_mrco_pointer_snds_F,10);
             weap_xx(srifle_GM6_LRPS_F,10);
-            weap_xx(arifle_AK12_lush_mrco_pointer_F,10);
+            weap_xx(arifle_AK12_trp_mrco_pointer_F,10);
             weap_xx(launch_B_Titan_olive_F,10);
             weap_xx(launch_B_Titan_short_tna_F,10);
             weap_xx(launch_RPG32_green_F,10);
@@ -260,7 +258,6 @@
             item_xx(acc_flashlight,10);
             item_xx(optic_MRCO,10);
             item_xx(optic_Aco,10);
-            item_xx(muzzle_snds_B_lush_F,10);
             item_xx(muzzle_snds_B,10);
             item_xx(optic_DMS,10);
             item_xx(bipod_01_F_blk,10);
@@ -355,14 +352,12 @@
             mag_xx(Titan_AT,50);
             mag_xx(SmokeShellRed,50);
             mag_xx(SmokeShellGreen,50);
-            mag_xx(30rnd_762x39_AK12_Arid_Mag_F,50);
             mag_xx(11Rnd_45ACP_Mag,50);
             mag_xx(SmokeShellBlue,50);
             mag_xx(APERSMine_Range_Mag,50);
             mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
             mag_xx(APERSBoundingMine_Range_Mag,50);
             mag_xx(SLAMDirectionalMine_Wire_Mag,50);
-            mag_xx(30rnd_762x39_AK12_Arid_Mag_Tracer_F,50);
             mag_xx(5Rnd_127x108_Mag,50);
         };
         class TransportWeapons {
@@ -380,7 +375,6 @@
             mag_xx(10Rnd_9x21_Mag,50);
             mag_xx(75rnd_762x39_AK12_Mag_F,50);
             mag_xx(1Rnd_HE_Grenade_shell,50);
-            mag_xx(30rnd_762x39_AK12_Arid_Mag_F,50);
             mag_xx(11Rnd_45ACP_Mag,50);
             mag_xx(20Rnd_762x51_Mag,50);
             mag_xx(5Rnd_127x108_Mag,50);
@@ -396,14 +390,14 @@
             weap_xx(arifle_AK12_GL_fl_F,10);
             weap_xx(arifle_AK12_fl_mrco_F,10);
             weap_xx(arifle_AK12_GL_fl_aco_F,10);
-            weap_xx(arifle_AK12_arid_aco_snds_F,10);
+            weap_xx(arifle_AK12_sarid_aco_snds_F,10);
             weap_xx(hgun_Pistol_heavy_01_F,10);
-            weap_xx(arifle_RPK12_arid_snds_aco_F,10);
-            weap_xx(arifle_AK12_GL_arid_aco_snds_F,10);
+            weap_xx(arifle_RPK12_sarid_snds_aco_F,10);
+            weap_xx(arifle_AK12_GL_sarid_aco_snds_F,10);
             weap_xx(srifle_EBR_Black_snds_DMS_bipod_F,10);
-            weap_xx(arifle_AK12_arid_mrco_pointer_snds_F,10);
+            weap_xx(arifle_AK12_sarid_mrco_pointer_snds_F,10);
             weap_xx(srifle_GM6_LRPS_F,10);
-            weap_xx(arifle_AK12_arid_mrco_pointer_F,10);
+            weap_xx(arifle_AK12_sarid_mrco_pointer_F,10);
         };
         class TransportItems {
             item_xx(acc_flashlight,10);
@@ -534,14 +528,12 @@
             mag_xx(Titan_AT,50);
             mag_xx(SmokeShellRed,50);
             mag_xx(SmokeShellGreen,50);
-            mag_xx(30rnd_762x39_AK12_Arid_Mag_F,50);
             mag_xx(11Rnd_45ACP_Mag,50);
             mag_xx(SmokeShellBlue,50);
             mag_xx(APERSMine_Range_Mag,50);
             mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
             mag_xx(APERSBoundingMine_Range_Mag,50);
             mag_xx(SLAMDirectionalMine_Wire_Mag,50);
-            mag_xx(30rnd_762x39_AK12_Arid_Mag_Tracer_F,50);
             mag_xx(5Rnd_127x108_Mag,50);
         };
         class TransportWeapons {
@@ -555,14 +547,14 @@
             weap_xx(arifle_AK12_GL_fl_F,10);
             weap_xx(arifle_AK12_fl_mrco_F,10);
             weap_xx(arifle_AK12_GL_fl_aco_F,10);
-            weap_xx(arifle_AK12_arid_aco_snds_F,10);
+            weap_xx(arifle_AK12_sarid_aco_snds_F,10);
             weap_xx(hgun_Pistol_heavy_01_F,10);
-            weap_xx(arifle_RPK12_arid_snds_aco_F,10);
-            weap_xx(arifle_AK12_GL_arid_aco_snds_F,10);
+            weap_xx(arifle_RPK12_sarid_snds_aco_F,10);
+            weap_xx(arifle_AK12_GL_sarid_aco_snds_F,10);
             weap_xx(srifle_EBR_Black_snds_DMS_bipod_F,10);
-            weap_xx(arifle_AK12_arid_mrco_pointer_snds_F,10);
+            weap_xx(arifle_AK12_sarid_mrco_pointer_snds_F,10);
             weap_xx(srifle_GM6_LRPS_F,10);
-            weap_xx(arifle_AK12_arid_mrco_pointer_F,10);
+            weap_xx(arifle_AK12_sarid_mrco_pointer_F,10);
             weap_xx(launch_B_Titan_short_tna_F,10);
             weap_xx(launch_B_Titan_olive_F,10);
             weap_xx(launch_RPG32_green_F,10);

@@ -4,14 +4,10 @@
 // ************
     class arifle_AK12_F;
     class arifle_AK12_GL_F;
-    class arifle_AK12_lush_F;
-    class arifle_AK12_GL_lush_F;
     class arifle_AK12_arid_F;
     class arifle_AK12_GL_arid_F;
     // class arifle_AK12U_F;
     class arifle_RPK12_F;
-    class arifle_RPK12_lush_F;
-    class arifle_RPK12_arid_F;
     class arifle_Mk20_F;
     class arifle_Mk20_GL_F;
     class srifle_EBR_F;
@@ -392,245 +388,303 @@
 		};
 	};
 
-	// AK-12 Lush
-	class arifle_AK12_lush_aco_snds_F: arifle_AK12_lush_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_lush_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_aco";
-				slot="CowsSlot";
-			};
-		};
-	};
+    // AK-12 7.62 mm (Tropic)
+    class arifle_AK12_trp_F: arifle_AK12_F
+    {
+        author="kenoxite";
+        baseWeapon="arifle_AK12_trp_F";
+        scope=2;
+        displayName="AK-12 (Tropic)";
+        hiddenSelectionsTextures[]=
+        {
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_1_trp3.paa",
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_2_trp3.paa"
+        };
+    };
+    class arifle_AK12_trp_aco_snds_F: arifle_AK12_trp_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_aco";
+                slot="CowsSlot";
+            };
+        };
+    };
+    class arifle_AK12_trp_mrco_snds_F: arifle_AK12_trp_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_MRCO";
+                slot="CowsSlot";
+            };
+        };
+    };
+    class arifle_AK12_trp_mrco_pointer_F: arifle_AK12_trp_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsAcc
+            {
+                item="acc_pointer_IR";
+                slot="PointerSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_MRCO";
+                slot="CowsSlot";
+            };
+        };
+    };
+    class arifle_AK12_trp_mrco_pointer_snds_F: arifle_AK12_trp_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsAcc
+            {
+                item="acc_pointer_IR";
+                slot="PointerSlot";
+            };
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_MRCO";
+                slot="CowsSlot";
+            };
+        };
+    };
 
-	class arifle_AK12_lush_mrco_snds_F: arifle_AK12_lush_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_lush_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_MRCO";
-				slot="CowsSlot";
-			};
-		};
-	};
+    class arifle_AK12_GL_trp_F: arifle_AK12_GL_F
+    {
+        author="kenoxite";
+        baseWeapon="arifle_AK12_GL_trp_F";
+        scope=2;
+        displayName="AK-12 GL (Tropic)";
+        hiddenSelectionsTextures[]=
+        {
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_1_trp3.paa",
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_2_trp3.paa",
+            "\CA2035\weapons\rifles\ak12\AK12_GL_trp3.paa"
+        };
+    };
+    class arifle_AK12_GL_trp_aco_snds_F: arifle_AK12_GL_trp_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_aco";
+                slot="CowsSlot";
+            };
+        };
+    };
+    class arifle_AK12_GL_trp_mrco_snds_F: arifle_AK12_GL_trp_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_mrco";
+                slot="CowsSlot";
+            };
+        };
+    };
+    // Legacy compatibility with AK-12 lush configs
+    class arifle_AK12_lush_aco_snds_F: arifle_AK12_trp_aco_snds_F {};
+    class arifle_AK12_lush_mrco_snds_F: arifle_AK12_trp_mrco_snds_F {};
+    class arifle_AK12_lush_mrco_pointer_F: arifle_AK12_trp_mrco_pointer_F {};
+    class arifle_AK12_lush_mrco_pointer_snds_F: arifle_AK12_trp_mrco_pointer_snds_F {};
+    class arifle_AK12_GL_lush_aco_snds_F: arifle_AK12_GL_trp_aco_snds_F {};
+    class arifle_AK12_GL_lush_mrco_snds_F: arifle_AK12_GL_trp_mrco_snds_F {};
 
-	class arifle_AK12_lush_mrco_pointer_F: arifle_AK12_lush_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				item="acc_pointer_IR";
-				slot="PointerSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_MRCO";
-				slot="CowsSlot";
-			};
-		};
-	};
 
-	class arifle_AK12_lush_mrco_pointer_snds_F: arifle_AK12_lush_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				item="acc_pointer_IR";
-				slot="PointerSlot";
-			};
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_lush_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_MRCO";
-				slot="CowsSlot";
-			};
-		};
-	};
+    // AK-12 7.62 mm (Semi-Arid)
+    class arifle_AK12_sarid_F: arifle_AK12_F
+    {
+        author="kenoxite";
+        baseWeapon="arifle_AK12_sarid_F";
+        scope=2;
+        displayName="AK-12 (Semi-Arid)";
+        hiddenSelectionsTextures[]=
+        {
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_1_newarid.paa",
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_2_newarid.paa"
+        };
+    };
+    class arifle_AK12_sarid_aco_snds_F: arifle_AK12_sarid_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_aco";
+                slot="CowsSlot";
+            };
+        };
+    };
+    class arifle_AK12_sarid_mrco_snds_F: arifle_AK12_sarid_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_MRCO";
+                slot="CowsSlot";
+            };
+        };
+    };
+    class arifle_AK12_sarid_mrco_pointer_F: arifle_AK12_sarid_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsAcc
+            {
+                item="acc_pointer_IR";
+                slot="PointerSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_MRCO";
+                slot="CowsSlot";
+            };
+        };
+    };
+    class arifle_AK12_sarid_mrco_pointer_snds_F: arifle_AK12_sarid_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsAcc
+            {
+                item="acc_pointer_IR";
+                slot="PointerSlot";
+            };
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_MRCO";
+                slot="CowsSlot";
+            };
+        };
+    };
+    
+    class arifle_AK12_GL_sarid_F: arifle_AK12_GL_F
+    {
+        author="kenoxite";
+        baseWeapon="arifle_AK12_GL_sarid_F";
+        scope=2;
+        displayName="AK-12 GL (Semi-Arid)";
+        hiddenSelectionsTextures[]=
+        {
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_1_newarid.paa",
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_2_newarid.paa",
+            "\CA2035\weapons\rifles\ak12\AK12_GL_newarid.paa"
+        };
+    };
+    class arifle_AK12_GL_sarid_aco_snds_F: arifle_AK12_GL_sarid_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_aco";
+                slot="CowsSlot";
+            };
+        };
+    };
+    class arifle_AK12_GL_sarid_mrco_snds_F: arifle_AK12_GL_sarid_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_mrco";
+                slot="CowsSlot";
+            };
+        };
+    };
+    // Legacy compatibility with AK-12 arid configs
+    class arifle_AK12_arid_aco_snds_F: arifle_AK12_sarid_aco_snds_F {};
+    class arifle_AK12_arid_mrco_snds_F: arifle_AK12_sarid_mrco_snds_F {};
+    class arifle_AK12_arid_mrco_pointer_F: arifle_AK12_sarid_mrco_pointer_F {};
+    class arifle_AK12_arid_mrco_pointer_snds_F: arifle_AK12_sarid_mrco_pointer_snds_F {};
+    class arifle_AK12_GL_arid_aco_snds_F: arifle_AK12_GL_sarid_aco_snds_F {};
+    class arifle_AK12_GL_arid_mrco_snds_F: arifle_AK12_GL_sarid_mrco_snds_F {};
 
-	class arifle_AK12_GL_lush_aco_snds_F: arifle_AK12_GL_lush_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_lush_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_aco";
-				slot="CowsSlot";
-			};
-		};
-	};
-
-	class arifle_AK12_GL_lush_mrco_snds_F: arifle_AK12_GL_lush_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_lush_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_mrco";
-				slot="CowsSlot";
-			};
-		};
-	};
-
-	// AK-12 Arid
-	class arifle_AK12_arid_aco_snds_F: arifle_AK12_arid_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_snd_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_aco";
-				slot="CowsSlot";
-			};
-		};
-	};
-
-	class arifle_AK12_arid_mrco_snds_F: arifle_AK12_arid_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_snd_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_MRCO";
-				slot="CowsSlot";
-			};
-		};
-	};
-
-	class arifle_AK12_arid_mrco_pointer_F: arifle_AK12_arid_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				item="acc_pointer_IR";
-				slot="PointerSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_MRCO";
-				slot="CowsSlot";
-			};
-		};
-	};
-
-	class arifle_AK12_arid_mrco_pointer_snds_F: arifle_AK12_arid_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsAcc
-			{
-				item="acc_pointer_IR";
-				slot="PointerSlot";
-			};
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_snd_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_MRCO";
-				slot="CowsSlot";
-			};
-		};
-	};
-
-	class arifle_AK12_GL_arid_aco_snds_F: arifle_AK12_GL_arid_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_snd_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_aco";
-				slot="CowsSlot";
-			};
-		};
-	};
-
-	class arifle_AK12_GL_arid_mrco_snds_F: arifle_AK12_GL_arid_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_snd_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_mrco";
-				slot="CowsSlot";
-			};
-		};
-	};
 
 /*
 	class arifle_AK12U_F_Army: arifle_AK12U_F
@@ -666,6 +720,7 @@
 		};
 	};
 */
+
 	// RPK-12
 	class arifle_RPK12_fl_F: arifle_RPK12_F
 	{
@@ -681,83 +736,140 @@
 		};
 	};
 
-	// RPK-12 Lush
-	class arifle_RPK12_lush_snds_aco_F: arifle_RPK12_lush_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_lush_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_aco";
-				slot="CowsSlot";
-			};
-		};
-	};
+    // RPK-12 (Tropic)
+    class arifle_RPK12_trp_F: arifle_RPK12_F
+    {
+        author="kenoxite";
+        baseWeapon="arifle_RPK12_trp_F";
+        scope=2;
+        displayName="RPK-12 (Tropic)";
+        hiddenSelectionsTextures[]=
+        {
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_1_trp3.paa",
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_2_trp3.paa",
+            "\CA2035\weapons\Rifles\rpk12\AKU12_RPK12_parts_trp3.paa"
+        };
+    };
+    class arifle_RPK12_trp_fl_F: arifle_RPK12_trp_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsAcc
+            {
+                item="acc_flashlight";
+                slot="PointerSlot";
+            };
+        };
+    };
+    class arifle_RPK12_trp_snds_aco_F: arifle_RPK12_trp_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_aco";
+                slot="CowsSlot";
+            };
+        };
+    };
+    class arifle_RPK12_trp_snds_mrco_F: arifle_RPK12_trp_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_MRCO";
+                slot="CowsSlot";
+            };
+        };
+    };
+    // Legacy compatibility with RPK-12 lush configs
+    class arifle_RPK12_lush_snds_aco_F: arifle_RPK12_trp_snds_aco_F {};
+    class arifle_RPK12_lush_snds_mrco_F: arifle_RPK12_trp_snds_mrco_F {};
 
-	class arifle_RPK12_lush_snds_mrco_F: arifle_RPK12_lush_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_lush_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_MRCO";
-				slot="CowsSlot";
-			};
-		};
-	};
+    // RPK-12 (Semi-Arid)
+    class arifle_RPK12_sarid_F: arifle_RPK12_F
+    {
+        author="kenoxite";
+        baseWeapon="arifle_RPK12_sarid_F";
+        scope=2;
+        displayName="RPK-12 (Semi-Arid)";
+        hiddenSelectionsTextures[]=
+        {
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_1_newarid.paa",
+            "\CA2035\weapons\rifles\ak12\AK12_ak12_2_newarid.paa",
+            "\CA2035\weapons\Rifles\rpk12\AKU12_RPK12_parts_newarid.paa"
+        };
+    };
+    class arifle_RPK12_sarid_fl_F: arifle_RPK12_sarid_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsAcc
+            {
+                item="acc_flashlight";
+                slot="PointerSlot";
+            };
+        };
+    };
+    class arifle_RPK12_sarid_snds_aco_F: arifle_RPK12_sarid_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_aco";
+                slot="CowsSlot";
+            };
+        };
+    };
+    class arifle_RPK12_sarid_snds_mrco_F: arifle_RPK12_sarid_F
+    {
+        author="kenoxite";
+        scope=1;
+        class LinkedItems
+        {
+            class LinkedItemsMuzzle
+            {
+                item="muzzle_snds_B";
+                slot="MuzzleSlot";
+            };
+            class LinkedItemsOptic
+            {
+                item="optic_MRCO";
+                slot="CowsSlot";
+            };
+        };
+    };
+    // Legacy compatibility with RPK-12 lush configs
+    class arifle_RPK12_arid_snds_aco_F: arifle_RPK12_sarid_snds_aco_F {};
+    class arifle_RPK12_arid_snds_mrco_F: arifle_RPK12_sarid_snds_mrco_F {};
 
-	// RPK-12 Arid
-	class arifle_RPK12_arid_snds_aco_F: arifle_RPK12_arid_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_snd_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_aco";
-				slot="CowsSlot";
-			};
-		};
-	};
-
-	class arifle_RPK12_arid_snds_mrco_F: arifle_RPK12_arid_F
-	{
-		author="kenoxite";
-		scope=1;
-		class LinkedItems
-		{
-			class LinkedItemsMuzzle
-			{
-				item="muzzle_snds_B_snd_F";
-				slot="MuzzleSlot";
-			};
-			class LinkedItemsOptic
-			{
-				item="optic_MRCO";
-				slot="CowsSlot";
-			};
-		};
-	};
 
 	// Mk20 Black
 	class I_CA2035_arifle_Mk20_Black_F: arifle_Mk20_F
