@@ -751,6 +751,23 @@ class CfgVehicles {
 
 #include "cfgGlasses.hpp"
 
+class CfgMarkers
+{
+    class flag_NATO {};
+    
+    class flag_CAAF: flag_NATO
+    {
+        name = "CAAF";
+        icon = "\CA2035\data\factionicons\I_CA2035_ca.paa";
+    };
+    
+    class flag_Rebels_CA: flag_NATO
+    {
+        name = "Rebels (Central Africa)";
+        icon = "\CA2035\data\factionicons\I_G_CA2035_ca.paa";
+    };
+};
+
 class CfgGroups {
       class West
       {
