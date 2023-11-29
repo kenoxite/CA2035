@@ -46,7 +46,7 @@ class Item_I_CA2035_RegularUniform_ard: Item_I_CA2035_RegularUniform_wdl
     author="kenoxite";
     scope=2;
     scopeCurator=2;
-    displayName="Old Combat Fatigues (Arid)";
+    displayName="Old Combat Fatigues (Semi-Arid)";
     class TransportItems
     {
         class Item_I_CA2035_RegularUniform_ard
@@ -102,7 +102,7 @@ class Item_I_CA2035_RegularUniform_ard_tanktop: Item_I_CA2035_RegularUniform_wdl
     author="kenoxite";
     scope=2;
     scopeCurator=2;
-    displayName="Combat Fatigues (T-Top, Arid)";
+    displayName="Combat Fatigues (T-Top, Semi-Arid)";
     class TransportItems
     {
         class Item_I_CA2035_RegularUniform_ard_tanktop
@@ -156,7 +156,7 @@ class Item_I_CA2035_OfficerUniform_ard: Item_I_CA2035_OfficerUniform_wdl
     author="kenoxite";
     scope=2;
     scopeCurator=2;
-    displayName="Combat Fatigues (Officer, Arid)";
+    displayName="Combat Fatigues (Officer, Semi-Arid)";
     class TransportItems
     {
         class Item_I_CA2035_OfficerUniform_ard
@@ -209,7 +209,7 @@ class Item_I_CA2035_ReconUniform_ard: Item_I_CA2035_ReconUniform_wdl
     author="kenoxite";
     scope=2;
     scopeCurator=2;
-    displayName="Combat Fatigues (Arid)";
+    displayName="Combat Fatigues (Semi-Arid)";
     class TransportItems
     {
         class Item_I_CA2035_ReconUniform_ard
@@ -284,7 +284,7 @@ class Item_I_CA2035_GhillieSuit_ard: Item_I_CA2035_GhillieSuit_wdl
     author="kenoxite";
     scope=2;
     scopeCurator=2;
-    displayName="Guillie Suit (Arid)";
+    displayName="Guillie Suit (Semi-Arid)";
     class TransportItems
     {
         class Item_I_CA2035_GhillieSuit_ard
@@ -395,7 +395,7 @@ class Vest_V_PlateCarrierIA1_CA2035_ard: Vest_V_PlateCarrierIA1_CA2035_wdl
     author="kenoxite";
     scope=2;
     scopeCurator=2;
-    displayName="GA Carrier Lite (Arid)";
+    displayName="GA Carrier Lite (Semi-Arid)";
     class TransportItems
     {
         class Vest_V_PlateCarrierIA1_CA2035_ard
@@ -495,7 +495,7 @@ class Vest_V_PlateCarrierIA2_CA2035_ard: Vest_V_PlateCarrierIA2_CA2035_wdl
     author="kenoxite";
     scope=2;
     scopeCurator=2;
-    displayName="GA Carrier Rig (Arid)";
+    displayName="GA Carrier Rig (Semi-Arid)";
     class TransportItems
     {
         class Vest_V_PlateCarrierIA2_CA2035_ard
@@ -646,12 +646,12 @@ class Headgear_H_Bandanna_hs_CA2035_trp: Headgear_Base_F
     };
 };
 
-// Bandana (Arid, Headset)
+// Bandana (Semi-Arid, Headset)
 class Headgear_H_Bandanna_hs_CA2035_ard: Headgear_Base_F
 {
     scope=2;
     scopeCurator=2;
-    displayName="Bandana (Arid, Headset)";
+    displayName="Bandana (Semi-Arid, Headset)";
     author="kenoxite";
     editorCategory="EdCat_Equipment";
     editorSubcategory="EdSubcat_Hats";
@@ -710,12 +710,12 @@ class Headgear_H_MilCap_CA2035_trp: Headgear_Base_F
     };
 };
 
-// Military Cap (Arid)
+// Military Cap (Semi-Arid)
 class Headgear_H_MilCap_CA2035_ard: Headgear_Base_F
 {
     scope=2;
     scopeCurator=2;
-    displayName="Military Cap (Arid)";
+    displayName="Military Cap (Semi-Arid)";
     author="kenoxite";
     editorCategory="EdCat_Equipment";
     editorSubcategory="EdSubcat_Hats";
@@ -779,7 +779,7 @@ class Headgear_H_Booniehat_CA2035_ard: Headgear_Base_F
 {
     scope=2;
     scopeCurator=2;
-    displayName="Booniehat (Arid, Headset)";
+    displayName="Booniehat (Semi-Arid, Headset)";
     author="kenoxite";
     editorCategory="EdCat_Equipment";
     editorSubcategory="EdSubcat_Hats";
@@ -838,12 +838,12 @@ class Headgear_H_HelmetIA_CA2035_trp: Headgear_Base_F
     };
 };
 
-// Modular Helmet (Arid)
+// Modular Helmet (Semi-Arid)
 class Headgear_H_HelmetIA_CA2035_ard: Headgear_Base_F
 {
     scope=2;
     scopeCurator=2;
-    displayName="Modular Helmet (Arid)";
+    displayName="Modular Helmet (Semi-Arid)";
     author="kenoxite";
     editorCategory="EdCat_Equipment";
     editorSubcategory="EdSubcat_Hats";
@@ -864,7 +864,7 @@ class Headgear_H_HelmetIA_fast_CA2035_trp: Headgear_Base_F
 {
     scope=2;
     scopeCurator=2;
-    displayName="Light Combat Helmet (Tropic)";
+    displayName="Light Combat Helmet (Tropic, Basic)";
     author="kenoxite";
     editorCategory="EdCat_Equipment";
     editorSubcategory="EdSubcat_Hats";
@@ -879,12 +879,12 @@ class Headgear_H_HelmetIA_fast_CA2035_trp: Headgear_Base_F
         };
     };
 };
-// Fast Helmet (Arid)
+// Fast Helmet (Semi-Arid)
 class Headgear_H_HelmetIA_fast_CA2035_ard: Headgear_Base_F
 {
     scope=2;
     scopeCurator=2;
-    displayName="Light Combat Helmet (Arid)";
+    displayName="Light Combat Helmet (Semi-Arid, Basic)";
     author="kenoxite";
     editorCategory="EdCat_Equipment";
     editorSubcategory="EdSubcat_Hats";
@@ -904,7 +904,7 @@ class Headgear_H_HelmetIA_fast_CA2035_green: Headgear_Base_F
 {
     scope=2;
     scopeCurator=2;
-    displayName="Light Combat Helmet (Green)";
+    displayName="Light Combat Helmet (Green, Basic)";
     author="kenoxite";
     editorCategory="EdCat_Equipment";
     editorSubcategory="EdSubcat_Hats";
@@ -924,7 +924,7 @@ class Headgear_H_HelmetIA_fast_CA2035_brown: Headgear_Base_F
 {
     scope=2;
     scopeCurator=2;
-    displayName="Light Combat Helmet (Brown)";
+    displayName="Light Combat Helmet (Brown, Basic)";
     author="kenoxite";
     editorCategory="EdCat_Equipment";
     editorSubcategory="EdSubcat_Hats";
@@ -944,7 +944,7 @@ class Headgear_H_HelmetIA_fast_CA2035_black: Headgear_Base_F
 {
     scope=2;
     scopeCurator=2;
-    displayName="Light Combat Helmet (Black)";
+    displayName="Light Combat Helmet (Black, Basic)";
     author="kenoxite";
     editorCategory="EdCat_Equipment";
     editorSubcategory="EdSubcat_Hats";

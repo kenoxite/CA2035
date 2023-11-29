@@ -1,6 +1,6 @@
 class IND_CA2035_D_F
 {
-    name = "CAAF (Arid)";
+    name = "CAAF (Semi-Arid)";
     class Infantry
     {
         name="$STR_A3_CfgGroups_West_BLU_F_Infantry0";

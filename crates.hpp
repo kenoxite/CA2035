@@ -322,12 +322,12 @@ class IND_CA2035_T_F_SupplyBox : B_SupplyCrate_F {
 };
 
 // ------------------------
-// CAAF - Arid
+// CAAF - Semi-Arid
 // ------------------------
 
 class IND_CA2035_D_F_AmmoBox : Box_NATO_Ammo_F {
     author = ALiVE ORBAT CREATOR;
-    displayName = CAAF (Arid) Ammo Box;
+    displayName = CAAF (Semi-Arid) Ammo Box;
     class TransportMagazines {
         mag_xx(30Rnd_545x39_Mag_F,50);
         mag_xx(SmokeShellYellow,50);
@@ -367,7 +367,7 @@ class IND_CA2035_D_F_AmmoBox : Box_NATO_Ammo_F {
 };
 class IND_CA2035_D_F_WeaponsBox : Box_NATO_Wps_F {
     author = ALiVE ORBAT CREATOR;
-    displayName = CAAF (Arid) Weapons Box;
+    displayName = CAAF (Semi-Arid) Weapons Box;
     class TransportMagazines {
         mag_xx(30Rnd_545x39_Mag_F,50);
         mag_xx(30Rnd_762x39_AK12_Mag_F,50);
@@ -413,7 +413,7 @@ class IND_CA2035_D_F_WeaponsBox : Box_NATO_Wps_F {
 };
 class IND_CA2035_D_F_LaunchersBox : Box_NATO_WpsLaunch_F {
     author = ALiVE ORBAT CREATOR;
-    displayName = CAAF (Arid) Launchers Box;
+    displayName = CAAF (Semi-Arid) Launchers Box;
     class TransportMagazines {
         mag_xx(Titan_AT,5);
         mag_xx(Titan_AA,5);
@@ -429,7 +429,7 @@ class IND_CA2035_D_F_LaunchersBox : Box_NATO_WpsLaunch_F {
 };
 class IND_CA2035_D_F_UniformBox : Box_NATO_Uniforms_F {
     author = ALiVE ORBAT CREATOR;
-    displayName = CAAF (Arid) Uniform Box;
+    displayName = CAAF (Semi-Arid) Uniform Box;
     class TransportWeapons {
     };
     class TransportMagazines {
@@ -445,7 +445,7 @@ class IND_CA2035_D_F_UniformBox : Box_NATO_Uniforms_F {
 };
 class IND_CA2035_D_F_SupportBox : Box_NATO_Support_F {
     author = ALiVE ORBAT CREATOR;
-    displayName = CAAF (Arid) Support Box;
+    displayName = CAAF (Semi-Arid) Support Box;
     class TransportWeapons {
     };
     class TransportMagazines {
@@ -503,7 +503,7 @@ class IND_CA2035_D_F_SupportBox : Box_NATO_Support_F {
 };
 class IND_CA2035_D_F_SupplyBox : B_SupplyCrate_F {
     author = ALiVE ORBAT CREATOR;
-    displayName = CAAF (Arid) Supply Box;
+    displayName = CAAF (Semi-Arid) Supply Box;
     class TransportMagazines {
         mag_xx(30Rnd_545x39_Mag_F,50);
         mag_xx(SmokeShellYellow,50);

@@ -1,5 +1,5 @@
 // ------------
-// Vehicles - Arid
+// Vehicles - Semi-Arid
 // ------------
 
 // AR-2

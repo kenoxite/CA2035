@@ -1,3 +1,5 @@
+#define VERSION "1.3"
+
 #include "basicDefines.hpp"
 #include "definitions.hpp"
 
@@ -11,7 +13,7 @@ class CfgFactionClasses
         flag = "\CA2035\data\flags\flag_I_CA2035_co.paa";
     };
     class IND_CA2035_D_F {
-        displayName = "CAAF (Arid)";
+        displayName = "CAAF (Semi-Arid)";
         priority=2;
         side = 2;
         icon = "\CA2035\data\factionicons\icon_I_CA2035_ca.paa";
@@ -634,25 +636,36 @@ class CfgPatches
               "arifle_AK12_trp_mrco_snds_F",
               "arifle_AK12_trp_mrco_pointer_F",
               "arifle_AK12_trp_mrco_pointer_snds_F",
+              "arifle_AK12_trp_arco_snds_F",
+              "arifle_AK12_trp_arco_pointer_F",
+              "arifle_AK12_trp_arco_pointer_snds_F",
               "arifle_AK12_GL_trp_F",
               "arifle_AK12_GL_trp_aco_snds_F",
               "arifle_AK12_GL_trp_mrco_snds_F",
+              "arifle_AK12_GL_trp_arco_snds_F",
               "arifle_AK12_sarid_F",
               "arifle_AK12_sarid_aco_snds_F",
               "arifle_AK12_sarid_mrco_snds_F",
               "arifle_AK12_sarid_mrco_pointer_F",
               "arifle_AK12_sarid_mrco_pointer_snds_F",
+              "arifle_AK12_sarid_arco_snds_F",
+              "arifle_AK12_sarid_arco_pointer_F",
+              "arifle_AK12_sarid_arco_pointer_snds_F",
               "arifle_AK12_GL_sarid_F",
               "arifle_AK12_GL_sarid_aco_snds_F",
               "arifle_AK12_GL_sarid_mrco_snds_F",
+              "arifle_AK12_GL_sarid_arco_snds_F",
+              
               "arifle_RPK12_trp_F",
               "arifle_RPK12_trp_fl_F",
               "arifle_RPK12_trp_snds_aco_F",
               "arifle_RPK12_trp_snds_mrco_F",
+              "arifle_RPK12_trp_snds_arco_F",
               "arifle_RPK12_sarid_F",
               "arifle_RPK12_sarid_fl_F",
               "arifle_RPK12_sarid_snds_aco_F",
               "arifle_RPK12_sarid_snds_mrco_F",
+              "arifle_RPK12_sarid_snds_arco_F",
 
               "I_CA2035_arifle_Mk20_Black_F",
               "I_CA2035_arifle_Mk20_GL_Black_F",
@@ -666,10 +679,18 @@ class CfgPatches
               "arifle_Mk20_GL_Black_snds_pointer_mrco_F",
 
               "I_CA2035_srifle_EBR_Black_F",
-
               "srifle_EBR_Black_snds_DMS_bipod_F",
 
-              "srifle_GM6_lrps_f"
+              "srifle_EBR_CA2035_trp_F",
+              "srifle_EBR_CA2035_trp_snds_DMS_bipod_F",
+              "srifle_EBR_CA2035_sarid_F",
+              "srifle_EBR_CA2035_sarid_snds_DMS_bipod_F",
+
+              "srifle_GM6_lrps_f",
+              "srifle_GM6_CA2035_trp_F",
+              "srifle_GM6_CA2035_trp_lrps_f",
+              "srifle_GM6_CA2035_sarid_F",
+              "srifle_GM6_CA2035_sarid_lrps_f"
         };
         requiredVersion = 1.62;
         requiredAddons[] = {
@@ -692,14 +713,20 @@ class CfgPatches
               "A3_Static_F",
               "A3_Boat_F",
               "A3_Boat_F_Beta",
-              "A3_Boat_F_Exp"
+              "A3_Boat_F_Exp",
+              "A3_Weapons_F",
+              "A3_Weapons_F_Exp",
+              "A3_Weapons_F_Enoch"
         };
 
         name = "2035 Central Africa";
         author = "kenoxite";
-        authors[] = {"kenoxite", "krzychuzokecia"};
+        authors[] = {
+            "kenoxite",
+            "krzychuzokecia"
+        };
         // url = "";
-        version = "1.3";
+        version = VERSION;
     };
 };
 
@@ -780,7 +807,7 @@ class CfgVehicles
 
 class CfgMarkers
 {
-    class flag_NATO {};
+    class flag_NATO;
     
     class flag_CAAF: flag_NATO
     {

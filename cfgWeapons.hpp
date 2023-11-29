@@ -4,8 +4,6 @@
 // ************
 class arifle_AK12_F;
 class arifle_AK12_GL_F;
-class arifle_AK12_arid_F;
-class arifle_AK12_GL_arid_F;
 // class arifle_AK12U_F;
 class arifle_RPK12_F;
 class arifle_Mk20_F;
@@ -398,8 +396,8 @@ class arifle_AK12_trp_F: arifle_AK12_F
     displayName="AK-12 7.62 mm (Tropic)";
     hiddenSelectionsTextures[]=
     {
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_1_trp3.paa",
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_2_trp3.paa"
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_1_trp3.paa",
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_2_trp3.paa"
     };
 };
 class arifle_AK12_trp_aco_snds_F: arifle_AK12_trp_F
@@ -410,7 +408,7 @@ class arifle_AK12_trp_aco_snds_F: arifle_AK12_trp_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_khk_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
@@ -428,7 +426,7 @@ class arifle_AK12_trp_mrco_snds_F: arifle_AK12_trp_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_khk_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
@@ -469,12 +467,71 @@ class arifle_AK12_trp_mrco_pointer_snds_F: arifle_AK12_trp_F
         };
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_khk_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
         {
             item="optic_MRCO";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_AK12_trp_arco_snds_F: arifle_AK12_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_khk_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_lush_F";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_AK12_trp_arco_pointer_F: arifle_AK12_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_lush_F";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_AK12_trp_arco_pointer_snds_F: arifle_AK12_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
+        };
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_khk_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_lush_F";
             slot="CowsSlot";
         };
     };
@@ -488,9 +545,9 @@ class arifle_AK12_GL_trp_F: arifle_AK12_GL_F
     displayName="AK-12 GL 7.62 mm (Tropic)";
     hiddenSelectionsTextures[]=
     {
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_1_trp3.paa",
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_2_trp3.paa",
-        "\CA2035\weapons\rifles\ak12\AK12_GL_trp3.paa"
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_1_trp3.paa",
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_2_trp3.paa",
+        "\CA2035\weapons\rifles\ak12\data\AK12_GL_trp3.paa"
     };
 };
 class arifle_AK12_GL_trp_aco_snds_F: arifle_AK12_GL_trp_F
@@ -501,7 +558,7 @@ class arifle_AK12_GL_trp_aco_snds_F: arifle_AK12_GL_trp_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_khk_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
@@ -519,12 +576,30 @@ class arifle_AK12_GL_trp_mrco_snds_F: arifle_AK12_GL_trp_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_khk_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
         {
             item="optic_mrco";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_AK12_GL_trp_arco_snds_F: arifle_AK12_GL_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_khk_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_lush_F";
             slot="CowsSlot";
         };
     };
@@ -547,8 +622,8 @@ class arifle_AK12_sarid_F: arifle_AK12_F
     displayName="AK-12 7.62 mm (Semi-Arid)";
     hiddenSelectionsTextures[]=
     {
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_1_newarid.paa",
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_2_newarid.paa"
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_1_newarid.paa",
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_2_newarid.paa"
     };
 };
 class arifle_AK12_sarid_aco_snds_F: arifle_AK12_sarid_F
@@ -559,7 +634,7 @@ class arifle_AK12_sarid_aco_snds_F: arifle_AK12_sarid_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
@@ -577,7 +652,7 @@ class arifle_AK12_sarid_mrco_snds_F: arifle_AK12_sarid_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
@@ -618,12 +693,71 @@ class arifle_AK12_sarid_mrco_pointer_snds_F: arifle_AK12_sarid_F
         };
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
         {
             item="optic_MRCO";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_AK12_sarid_arco_snds_F: arifle_AK12_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_arid_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_arid_F";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_AK12_sarid_arco_pointer_F: arifle_AK12_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_arid_F";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_AK12_sarid_arco_pointer_snds_F: arifle_AK12_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
+        };
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_arid_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_arid_F";
             slot="CowsSlot";
         };
     };
@@ -637,9 +771,9 @@ class arifle_AK12_GL_sarid_F: arifle_AK12_GL_F
     displayName="AK-12 GL 7.62 mm (Semi-Arid)";
     hiddenSelectionsTextures[]=
     {
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_1_newarid.paa",
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_2_newarid.paa",
-        "\CA2035\weapons\rifles\ak12\AK12_GL_newarid.paa"
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_1_newarid.paa",
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_2_newarid.paa",
+        "\CA2035\weapons\rifles\ak12\data\AK12_GL_newarid.paa"
     };
 };
 class arifle_AK12_GL_sarid_aco_snds_F: arifle_AK12_GL_sarid_F
@@ -650,7 +784,7 @@ class arifle_AK12_GL_sarid_aco_snds_F: arifle_AK12_GL_sarid_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
@@ -668,12 +802,30 @@ class arifle_AK12_GL_sarid_mrco_snds_F: arifle_AK12_GL_sarid_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
         {
             item="optic_mrco";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_AK12_GL_sarid_arco_snds_F: arifle_AK12_GL_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_arid_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_arid_F";
             slot="CowsSlot";
         };
     };
@@ -746,9 +898,9 @@ class arifle_RPK12_trp_F: arifle_RPK12_F
     displayName="RPK-12  7.62 mm (Tropic)";
     hiddenSelectionsTextures[]=
     {
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_1_trp3.paa",
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_2_trp3.paa",
-        "\CA2035\weapons\Rifles\rpk12\AKU12_RPK12_parts_trp3.paa"
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_1_trp3.paa",
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_2_trp3.paa",
+        "\CA2035\weapons\Rifles\rpk12\data\AKU12_RPK12_parts_trp3.paa"
     };
 };
 class arifle_RPK12_trp_fl_F: arifle_RPK12_trp_F
@@ -772,7 +924,7 @@ class arifle_RPK12_trp_snds_aco_F: arifle_RPK12_trp_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_khk_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
@@ -790,12 +942,30 @@ class arifle_RPK12_trp_snds_mrco_F: arifle_RPK12_trp_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_khk_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
         {
             item="optic_MRCO";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_RPK12_trp_snds_arco_F: arifle_RPK12_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_khk_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_lush_F";
             slot="CowsSlot";
         };
     };
@@ -813,9 +983,9 @@ class arifle_RPK12_sarid_F: arifle_RPK12_F
     displayName="RPK-12  7.62 mm (Semi-Arid)";
     hiddenSelectionsTextures[]=
     {
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_1_newarid.paa",
-        "\CA2035\weapons\rifles\ak12\AK12_ak12_2_newarid.paa",
-        "\CA2035\weapons\Rifles\rpk12\AKU12_RPK12_parts_newarid.paa"
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_1_newarid.paa",
+        "\CA2035\weapons\rifles\ak12\data\AK12_ak12_2_newarid.paa",
+        "\CA2035\weapons\Rifles\rpk12\data\AKU12_RPK12_parts_newarid.paa"
     };
 };
 class arifle_RPK12_sarid_fl_F: arifle_RPK12_sarid_F
@@ -839,7 +1009,7 @@ class arifle_RPK12_sarid_snds_aco_F: arifle_RPK12_sarid_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
@@ -857,12 +1027,30 @@ class arifle_RPK12_sarid_snds_mrco_F: arifle_RPK12_sarid_F
     {
         class LinkedItemsMuzzle
         {
-            item="muzzle_snds_B";
+            item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
         };
         class LinkedItemsOptic
         {
             item="optic_MRCO";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_RPK12_sarid_snds_arco_F: arifle_RPK12_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_arid_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_arid_F";
             slot="CowsSlot";
         };
     };
@@ -1034,12 +1222,12 @@ class arifle_Mk20_GL_Black_snds_pointer_mrco_F: I_CA2035_arifle_Mk20_GL_Black_F
 };
 
 // Mk18 ABR
-class I_CA2035_srifle_EBR_Black_F: srifle_EBR_F
+class srifle_EBR_CA2035_Black_F: srifle_EBR_F
 {
 	author="kenoxite";
 	scope=2;
     scopeCurator=2;
-    baseWeapon="I_CA2035_srifle_EBR_Black_F";
+    baseWeapon="srifle_EBR_CA2035_Black_F";
 	displayName="Mk18 ABR 7.62 mm (Black)";
 	hiddenSelections[]=
 	{
@@ -1052,9 +1240,7 @@ class I_CA2035_srifle_EBR_Black_F: srifle_EBR_F
 		"\CA2035\weapons\longrangerifles\ebr\data\m14_ebr02_co.paa"
 	};
 };
-
-// 
-class srifle_EBR_Black_snds_DMS_bipod_F: I_CA2035_srifle_EBR_Black_F
+class srifle_EBR_Black_snds_DMS_bipod_F: srifle_EBR_CA2035_Black_F
 {
 	author="kenoxite";
 	scope=1;
@@ -1077,8 +1263,97 @@ class srifle_EBR_Black_snds_DMS_bipod_F: I_CA2035_srifle_EBR_Black_F
 		};
 	};
 };
+// Legacy
+class I_CA2035_srifle_EBR_Black_F: srifle_EBR_CA2035_Black_F {scope=1};
 
-// GM6 Lynx
+// Mk18 ABR (Tropic)
+class srifle_EBR_CA2035_trp_F: srifle_EBR_F
+{
+    author="kenoxite";
+    scope=2;
+    scopeCurator=2;
+    baseWeapon="srifle_EBR_CA2035_trp_F";
+    displayName="Mk18 ABR 7.62 mm (Tropic)";
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "\CA2035\weapons\longrangerifles\ebr\data\m14_ebr01_trp.paa",
+        "\CA2035\weapons\longrangerifles\ebr\data\m14_ebr02_trp.paa"
+    };
+};
+class srifle_EBR_CA2035_trp_snds_DMS_bipod_F: srifle_EBR_CA2035_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_khk_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_DMS";
+            slot="CowsSlot";
+        };
+        class LinkedItemsUnder
+        {
+            item="bipod_01_F_blk";
+            slot="UnderBarrelSlot";
+        };
+    };
+};
+
+// Mk18 ABR (Semi-Arid)
+class srifle_EBR_CA2035_sarid_F: srifle_EBR_F
+{
+    author="kenoxite";
+    scope=2;
+    scopeCurator=2;
+    baseWeapon="srifle_EBR_CA2035_sarid_F";
+    displayName="Mk18 ABR 7.62 mm (Semi-Arid)";
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "\CA2035\weapons\longrangerifles\ebr\data\m14_ebr01_sarid.paa",
+        "\CA2035\weapons\longrangerifles\ebr\data\m14_ebr02_sarid.paa"
+    };
+};
+class srifle_EBR_CA2035_sarid_snds_DMS_bipod_F: srifle_EBR_CA2035_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_arid_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_DMS";
+            slot="CowsSlot";
+        };
+        class LinkedItemsUnder
+        {
+            item="bipod_01_F_blk";
+            slot="UnderBarrelSlot";
+        };
+    };
+};
+
+
+// GM6 Lynx 12.7 mm
 class srifle_GM6_lrps_f: srifle_GM6_F
 {
 	author="kenoxite";
@@ -1092,6 +1367,69 @@ class srifle_GM6_lrps_f: srifle_GM6_F
 		};
 	};
 };
+
+// GM6 Lynx 12.7 mm (Tropic)
+class srifle_GM6_CA2035_trp_F: srifle_GM6_F
+{
+    author="kenoxite";
+    scope=2;
+    scopeCurator=2;
+    baseWeapon="srifle_GM6_CA2035_trp_F";
+    displayName="GM6 Lynx 12.7 mm (Tropic)";
+    hiddenSelections[]=
+    {
+        "camo"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "\CA2035\weapons\longrangerifles\gm6\data\gm6_trp.paa"
+    };
+};
+class srifle_GM6_CA2035_trp_lrps_f: srifle_GM6_CA2035_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsOptic
+        {
+            item="optic_LRPS_tna_F";
+            slot="CowsSlot";
+        };
+    };
+};
+
+// GM6 Lynx 12.7 mm (Semi-Arid)
+class srifle_GM6_CA2035_sarid_F: srifle_GM6_F
+{
+    author="kenoxite";
+    scope=2;
+    scopeCurator=2;
+    baseWeapon="srifle_GM6_CA2035_sarid_F";
+    displayName="GM6 Lynx 12.7 mm (Semi-Arid)";
+    hiddenSelections[]=
+    {
+        "camo"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        "\CA2035\weapons\longrangerifles\gm6\data\gm6_sarid.paa"
+    };
+};
+class srifle_GM6_CA2035_sarid_lrps_f: srifle_GM6_CA2035_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsOptic
+        {
+            item="optic_LRPS_tna_F";
+            slot="CowsSlot";
+        };
+    };
+};
+
 
 // ************
 // UNIFORMS
@@ -1175,7 +1513,7 @@ class U_I_CA2035_RegularUniform_ard: U_I_CA2035_RegularUniform_wdl
 {
 	author="kenoxite";
 	scope=2;
-	displayName="Old Combat Fatigues (Arid)";
+	displayName="Old Combat Fatigues (Semi-Arid)";
     picture="\CA2035\characters\data\ui\icon_U_I_CA2035_RegularUniform_ard.paa";
 	hiddenSelectionsTextures[]=
 	{
@@ -1241,7 +1579,7 @@ class U_I_CA2035_RegularUniform_tanktop_ard: U_I_CA2035_RegularUniform_tanktop_w
 {
 	author="kenoxite";
 	scope=2;
-	displayName="Combat Fatigues (T-Top, Arid)";
+	displayName="Combat Fatigues (T-Top, Semi-Arid)";
     picture="\CA2035\characters\data\ui\icon_U_I_CA2035_RegularUniform_tanktop_ard.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelectionsTextures[]=
@@ -1307,7 +1645,7 @@ class U_I_CA2035_OfficerUniform_ard: U_I_CA2035_OfficerUniform_wdl
 {
 	author="kenoxite";
 	scope=2;
-	displayName="Combat Fatigues (Officer, Arid)";
+	displayName="Combat Fatigues (Officer, Semi-Arid)";
     picture="\CA2035\characters\data\ui\icon_U_I_CA2035_OfficerUniform_ard.paa";
 	hiddenSelectionsTextures[]=
 	{
@@ -1370,7 +1708,7 @@ class U_I_CA2035_ReconUniform_ard: U_I_CA2035_ReconUniform_wdl
 {
 	author="kenoxite";
 	scope=2;
-	displayName="Combat Fatigues (Arid)";
+	displayName="Combat Fatigues (Semi-Arid)";
     picture="\CA2035\characters\data\ui\icon_U_I_CA2035_ReconUniform_ard.paa";
 	hiddenSelectionsTextures[]=
 	{
@@ -1459,7 +1797,7 @@ class U_I_CA2035_GhillieSuit_ard: U_I_CA2035_GhillieSuit_wdl
 {
 	author="kenoxite";
 	scope=2;
-	displayName="Guillie Suit (Arid)";
+	displayName="Guillie Suit (Semi-Arid)";
     picture="\CA2035\characters\data\ui\icon_U_I_CA2035_GhillieSuit_ard.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelectionsTextures[]=
@@ -1732,7 +2070,7 @@ class H_Bandanna_hs_CA2035_ard: H_Bandanna_hs_CA2035_wdl
 	author="kenoxite";
 	scope=2;
 	weaponPoolAvailable=2;
-	displayName="Bandana (Arid, Headset)";
+	displayName="Bandana (Semi-Arid, Headset)";
     picture="\CA2035\characters\data\ui\icon_H_Bandanna_hs_CA2035_ard.paa";
 	hiddenSelectionsTextures[]=
 	{
@@ -1781,7 +2119,7 @@ class H_MilCap_CA2035_ard: H_MilCap_CA2035_wdl
 	author="kenoxite";
 	scope=2;
 	weaponPoolAvailable=2;
-	displayName="Military Cap (Arid)";
+	displayName="Military Cap (Semi-Arid)";
     picture="\CA2035\characters\data\ui\icon_H_MilCap_CA2035_ard.paa";
 	hiddenSelectionsTextures[]=
 	{
@@ -1824,7 +2162,7 @@ class H_Booniehat_CA2035_ard: H_Booniehat_CA2035_wdl
 	author="kenoxite";
 	scope=2;
 	weaponPoolAvailable=2;
-	displayName="Booniehat (Arid, Headset)";
+	displayName="Booniehat (Semi-Arid, Headset)";
     picture="\CA2035\characters\data\ui\icon_H_Booniehat_CA2035_ard.paa";
 	hiddenSelectionsTextures[]=
 	{
@@ -1908,7 +2246,7 @@ class H_HelmetIA_CA2035_ard: H_HelmetIA_CA2035_wdl
 	author="kenoxite";
 	scope=2;
 	weaponPoolAvailable=2;
-	displayName="Modular Helmet (Arid)";
+	displayName="Modular Helmet (Semi-Arid)";
     picture="\CA2035\characters\data\ui\icon_H_HelmetIA_CA2035_ard.paa";
 	hiddenSelectionsTextures[]=
 	{
@@ -1962,7 +2300,7 @@ class H_HelmetIA_fast_CA2035_trp: H_HelmetIA_fast_CA2035_base
     author="kenoxite";
     scope=2;
     weaponPoolAvailable=2;
-    displayName="Light Combat Helmet (Tropic)";
+    displayName="Light Combat Helmet (Tropic, Basic)";
     picture="\CA2035\characters\data\ui\icon_H_HelmetIA_fast_CA2035_trp.paa";
     hiddenSelectionsTextures[]=
     {
@@ -1974,7 +2312,7 @@ class H_HelmetIA_fast_CA2035_ard: H_HelmetIA_fast_CA2035_base
     author="kenoxite";
     scope=2;
     weaponPoolAvailable=2;
-    displayName="Light Combat Helmet (Arid)";
+    displayName="Light Combat Helmet (Semi-Arid, Basic)";
     picture="\CA2035\characters\data\ui\icon_H_HelmetIA_fast_CA2035_ard.paa";
     hiddenSelectionsTextures[]=
     {
@@ -1986,7 +2324,7 @@ class H_HelmetIA_fast_CA2035_green: H_HelmetIA_fast_CA2035_base
     author="kenoxite";
     scope=2;
     weaponPoolAvailable=2;
-    displayName="Light Combat Helmet (Green)";
+    displayName="Light Combat Helmet (Green, Basic)";
     picture="\CA2035\characters\data\ui\icon_H_HelmetIA_fast_CA2035_green.paa";
     hiddenSelectionsTextures[]=
     {
@@ -1998,7 +2336,7 @@ class H_HelmetIA_fast_CA2035_brown: H_HelmetIA_fast_CA2035_base
     author="kenoxite";
     scope=2;
     weaponPoolAvailable=2;
-    displayName="Light Combat Helmet (Brown)";
+    displayName="Light Combat Helmet (Brown, Basic)";
     picture="\CA2035\characters\data\ui\icon_H_HelmetIA_fast_CA2035_brown.paa";
     hiddenSelectionsTextures[]=
     {
@@ -2010,7 +2348,7 @@ class H_HelmetIA_fast_CA2035_black: H_HelmetIA_fast_CA2035_base
     author="kenoxite";
     scope=2;
     weaponPoolAvailable=2;
-    displayName="Light Combat Helmet (Black)";
+    displayName="Light Combat Helmet (Black, Basic)";
     picture="\CA2035\characters\data\ui\icon_H_HelmetIA_fast_CA2035_black.paa";
     hiddenSelectionsTextures[]=
     {
@@ -2118,7 +2456,7 @@ class V_PlateCarrierIA1_CA2035_ard: V_PlateCarrierIA1_CA2035_wdl
 	author="kenoxite";
 	scope=2;
 	weaponPoolAvailable=2;
-	displayName="GA Carrier Lite (Arid)";
+	displayName="GA Carrier Lite (Semi-Arid)";
     picture="\CA2035\characters\data\ui\icon_V_PlateCarrierIA1_CA2035_ard.paa";
 	hiddenSelectionsTextures[]=
 	{
@@ -2270,7 +2608,7 @@ class V_PlateCarrierIA2_CA2035_ard: V_PlateCarrierIA2_CA2035_wdl
 	author="kenoxite";
 	scope=2;
 	weaponPoolAvailable=2;
-	displayName="GA Carrier Rig (Arid)";
+	displayName="GA Carrier Rig (Semi-Arid)";
     picture="\CA2035\characters\data\ui\icon_V_PlateCarrierIA2_CA2035_ard.paa";
 	hiddenSelectionsTextures[]=
 	{

@@ -297,13 +297,13 @@ class I_CA2035_T_Recon_M_F : I_CA2035_Recon_Base_F {
     uniformClass = "U_I_CA2035_ReconUniform_trp";
 
     weapons[] = {
-        "srifle_EBR_Black_snds_DMS_bipod_F",
+        "srifle_EBR_CA2035_trp_snds_DMS_bipod_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
         };
     respawnWeapons[] = {
-        "srifle_EBR_Black_snds_DMS_bipod_F",
+        "srifle_EBR_CA2035_trp_snds_DMS_bipod_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
@@ -410,14 +410,14 @@ class I_CA2035_T_Recon_TL_F : I_CA2035_Recon_Base_F {
         "NVGoggles_INDEP"
     };
     weapons[] = {
-        "arifle_AK12_trp_mrco_pointer_snds_F",
+        "arifle_AK12_trp_arco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
         "Rangefinder",
 		"Throw",
 		"Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_trp_mrco_pointer_snds_F",
+        "arifle_AK12_trp_arco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
         "Rangefinder",
 		"Throw",

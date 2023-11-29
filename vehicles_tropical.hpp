@@ -239,7 +239,7 @@ class I_CA2035_T_Offroad_HMG_F : I_G_Offroad_01_armed_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -366,7 +366,7 @@ class I_CA2035_T_Offroad_F : I_G_Offroad_01_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -512,7 +512,7 @@ class I_CA2035_T_T100_F : O_MBT_02_cannon_F {
 		class CA2035_ard1
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -653,7 +653,7 @@ class I_CA2035_T_Strider_F : I_MRAP_03_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -810,7 +810,7 @@ class I_CA2035_T_WY_55_F : I_Heli_light_03_dynamicLoadout_F {
         class CA2035_ard1
         {
             author="kenoxite";
-            displayName="CAAF (Arid)";
+            displayName="CAAF (Semi-Arid)";
             factions[]=
             {
                 "IND_CA2035_D_F"
@@ -928,7 +928,7 @@ class I_CA2035_T_WY_55_Unarmed_F : I_Heli_light_03_unarmed_F {
         class CA2035_ard1
         {
             author="kenoxite";
-            displayName="CAAF (Arid)";
+            displayName="CAAF (Semi-Arid)";
             factions[]=
             {
                 "IND_CA2035_D_F"
@@ -1361,7 +1361,7 @@ class I_CA2035_T_Zamak_Transport_F : I_Truck_02_transport_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -1459,7 +1459,7 @@ class I_CA2035_T_Zamak_Covered_F : I_Truck_02_covered_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -1550,7 +1550,7 @@ class I_CA2035_T_Zamak_Fuel_F : I_Truck_02_fuel_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -1640,7 +1640,7 @@ class I_CA2035_T_Zamak_Ammo_F : I_Truck_02_Ammo_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -1750,7 +1750,7 @@ class I_CA2035_T_Zamak_Repair_F : I_Truck_02_Box_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -1840,7 +1840,7 @@ class I_CA2035_T_Zamak_Medical_F : I_Truck_02_Medical_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -1958,7 +1958,7 @@ class I_CA2035_T_APC_Wheeled_03_cannon_F : I_APC_Wheeled_03_cannon_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -2116,7 +2116,7 @@ class I_CA2035_T_Offroad_02_unarmed_F : C_Offroad_02_unarmed_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -2245,7 +2245,7 @@ class I_CA2035_T_Offroad_02_AT_F : I_C_Offroad_02_AT_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -2375,7 +2375,7 @@ class I_CA2035_T_Offroad_02_LMG_F : I_C_Offroad_02_LMG_F {
 		class CA2035_ARD
 		{
 			author="kenoxite";
-			displayName="CAAF (Arid)";
+			displayName="CAAF (Semi-Arid)";
 			factions[]=
 			{
 				"IND_CA2035_D_F"
@@ -2502,7 +2502,7 @@ class I_CA2035_T_2S9_F : O_T_MBT_02_arty_ghex_F {
         class CA2035_ard1
         {
             author="kenoxite";
-            displayName="CAAF (Arid)";
+            displayName="CAAF (Semi-Arid)";
             factions[]=
             {
                 "IND_CA2035_D_F"
@@ -2646,7 +2646,7 @@ class I_CA2035_T_MSE_3_F : O_APC_Wheeled_02_rcws_v2_F {
         class CA2035_ARD
         {
             author="kenoxite";
-            displayName="CAAF (Arid)";
+            displayName="CAAF (Semi-Arid)";
             factions[]=
             {
                 "IND_CA2035_D_F"

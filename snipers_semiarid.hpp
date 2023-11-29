@@ -35,14 +35,14 @@ class I_CA2035_D_Sniper_F : I_CA2035_T_Sniper_F {
     };
     
     weapons[] = {
-        "srifle_GM6_lrps_f",
+        "srifle_GM6_CA2035_sarid_lrps_f",
         "hgun_Pistol_heavy_01_F",
         "Rangefinder",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "srifle_GM6_lrps_f",
+        "srifle_GM6_CA2035_sarid_lrps_f",
         "hgun_Pistol_heavy_01_F",
         "Rangefinder",
         "Throw",
@@ -80,14 +80,14 @@ class I_CA2035_D_Spotter_F : I_CA2035_T_Spotter_F {
     };
 
     weapons[] = {
-        "arifle_AK12_sarid_mrco_pointer_F",
+        "arifle_AK12_sarid_arco_pointer_F",
         "hgun_Pistol_heavy_01_F",
         "Laserdesignator_03",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_sarid_mrco_pointer_F",
+        "arifle_AK12_sarid_arco_pointer_F",
         "hgun_Pistol_heavy_01_F",
         "Laserdesignator_03",
         "Throw",
