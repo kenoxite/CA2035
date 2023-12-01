@@ -804,6 +804,27 @@ class IND_CA2035_T_F
                 position[]={0,-10,0};
             };
         };
+        class I_CA2035_T_MotInf_AT_Light
+        {
+            name="Motorized Anti-armor Team (Light)";
+            side=2;
+            faction="IND_CA2035_T_F";
+            icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+            class Unit0
+            {
+                side=2;
+                vehicle="I_CA2035_T_Offroad_02_AT_F";
+                rank="CORPORAL";
+                position[]={0,0,0};
+            };
+            class Unit1
+            {
+                side=2;
+                vehicle="I_CA2035_T_Soldier_LAT_F";
+                rank="PRIVATE";
+                position[]={5,-5,0};
+            };
+        };
         class I_CA2035_T_MotInf_AA
         {
             name="$STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_AA0";

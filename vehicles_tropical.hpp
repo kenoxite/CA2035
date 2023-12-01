@@ -2310,6 +2310,10 @@ class I_CA2035_T_Offroad_02_AT_F : I_C_Offroad_02_AT_F {
 		item_xx(FirstAidKit,4);
 		item_xx(ToolKit,1);
 	};
+    class TransportMagazines
+    {
+        mag_xx(RPG32_F,4);
+    };
 };
 
 class I_C_Offroad_02_LMG_F;
