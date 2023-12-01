@@ -824,20 +824,6 @@ class IND_CA2035_D_F
                 rank="PRIVATE";
                 position[]={5,-5,0};
             };
-            class Unit2
-            {
-                side=2;
-                vehicle="I_CA2035_D_soldier_AT_F";
-                rank="CORPORAL";
-                position[]={-5,-5,0};
-            };
-            class Unit3
-            {
-                side=2;
-                vehicle="I_CA2035_D_soldier_AAT_F";
-                rank="PRIVATE";
-                position[]={0,-10,0};
-            };
         };
         class I_CA2035_D_MotInf_AA
         {
