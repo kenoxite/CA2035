@@ -42,13 +42,13 @@ class I_CA2035_D_Recon_F : I_CA2035_T_Recon_F {
     RANDOM_HEADGEAR_RECON_ARID();
 
     weapons[] = {
-        "arifle_AK12_sarid_aco_snds_F",
+        "arifle_AK12_sarid_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_sarid_aco_snds_F",
+        "arifle_AK12_sarid_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
@@ -87,14 +87,14 @@ class I_CA2035_D_Recon_LAT_F : I_CA2035_T_Recon_LAT_F {
     backpack = "B_FieldPack_LAT_Ard";
 
     weapons[] = {
-        "arifle_AK12_sarid_aco_snds_F",
+        "arifle_AK12_sarid_aco_pointer_snds_F",
         "launch_RPG32_green_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_sarid_aco_snds_F",
+        "arifle_AK12_sarid_aco_pointer_snds_F",
         "launch_RPG32_green_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
@@ -134,13 +134,13 @@ class I_CA2035_D_Recon_AR_F : I_CA2035_T_Recon_AR_F {
     RANDOM_HEADGEAR_RECON_ARID();
 
     weapons[] = {
-        "arifle_RPK12_sarid_snds_aco_F",
+        "arifle_RPK12_sarid_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_RPK12_sarid_snds_aco_F",
+        "arifle_RPK12_sarid_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
@@ -179,13 +179,13 @@ class I_CA2035_D_Recon_GL_F : I_CA2035_T_Recon_GL_F {
     RANDOM_HEADGEAR_RECON_ARID();
 
     weapons[] = {
-        "arifle_AK12_GL_sarid_aco_snds_F",
+        "arifle_AK12_GL_sarid_arco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_GL_sarid_aco_snds_F",
+        "arifle_AK12_GL_sarid_arco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
@@ -226,14 +226,14 @@ class I_CA2035_D_Recon_JTAC_F : I_CA2035_T_Recon_GL_F {
     RANDOM_HEADGEAR_RECON_ARID();
 
     weapons[] = {
-        "arifle_AK12_GL_sarid_aco_snds_F",
+        "arifle_AK12_GL_sarid_arco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put",
         "Laserdesignator"
         };
     respawnWeapons[] = {
-        "arifle_AK12_GL_sarid_aco_snds_F",
+        "arifle_AK12_GL_sarid_arco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put",
@@ -277,13 +277,13 @@ class I_CA2035_D_Recon_Medic_F : I_CA2035_T_Recon_Medic_F {
     RANDOM_HEADGEAR_RECON_ARID();
 
     weapons[] = {
-        "arifle_AK12_sarid_aco_snds_F",
+        "arifle_AK12_sarid_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_sarid_aco_snds_F",
+        "arifle_AK12_sarid_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
@@ -323,13 +323,13 @@ class I_CA2035_D_Recon_M_F : I_CA2035_T_Recon_M_F {
     RANDOM_HEADGEAR_RECON_ARID();
 
     weapons[] = {
-        "srifle_EBR_CA2035_sarid_snds_DMS_bipod_F",
+        "srifle_EBR_CA2035_sarid_snds_DMS_pointer_bipod_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "srifle_EBR_CA2035_sarid_snds_DMS_bipod_F",
+        "srifle_EBR_CA2035_sarid_snds_DMS_pointer_bipod_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
@@ -350,13 +350,13 @@ class I_CA2035_D_Recon_Exp_F : I_CA2035_T_Recon_Exp_F {
     RANDOM_HEADGEAR_RECON_ARID();
 
     weapons[] = {
-        "arifle_AK12_sarid_aco_snds_F",
+        "arifle_AK12_sarid_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_sarid_aco_snds_F",
+        "arifle_AK12_sarid_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_F",
         "Throw",
         "Put"

@@ -9,13 +9,13 @@ class I_CA2035_T_Recon_F : I_CA2035_Recon_Base_F {
     uniformClass = "U_I_CA2035_ReconUniform_trp";
 
     weapons[] = {
-        "arifle_AK12_trp_aco_snds_F",
+        "arifle_AK12_trp_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_trp_aco_snds_F",
+        "arifle_AK12_trp_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
@@ -53,14 +53,14 @@ class I_CA2035_T_Recon_LAT_F : I_CA2035_Recon_Base_F {
     uniformClass = "U_I_CA2035_RegularUniform_tanktop_trp";
 
     weapons[] = {
-        "arifle_AK12_trp_aco_snds_F",
+        "arifle_AK12_trp_aco_pointer_snds_F",
         "launch_RPG32_green_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_trp_aco_snds_F",
+        "arifle_AK12_trp_aco_pointer_snds_F",
         "launch_RPG32_green_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
@@ -104,13 +104,13 @@ class I_CA2035_T_Recon_AR_F : I_CA2035_Recon_Base_F {
     uniformClass = "U_I_CA2035_RegularUniform_tanktop_trp";
 
     weapons[] = {
-        "arifle_RPK12_trp_snds_aco_F",
+        "arifle_RPK12_sarid_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
         };
     respawnWeapons[] = {
-        "arifle_RPK12_trp_snds_aco_F",
+        "arifle_RPK12_sarid_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
@@ -150,13 +150,13 @@ class I_CA2035_T_Recon_GL_F : I_CA2035_Recon_Base_F {
     uniformClass = "U_I_CA2035_ReconUniform_trp";
 
     weapons[] = {
-        "arifle_AK12_GL_trp_aco_snds_F",
+        "arifle_AK12_GL_trp_arco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_GL_trp_aco_snds_F",
+        "arifle_AK12_GL_trp_arco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
@@ -198,14 +198,14 @@ class I_CA2035_T_Recon_JTAC_F : I_CA2035_Recon_Base_F {
     uniformClass = "U_I_CA2035_ReconUniform_trp";
 
     weapons[] = {
-        "arifle_AK12_GL_trp_aco_snds_F",
+        "arifle_AK12_GL_trp_arco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
         "Throw",
         "Put",
         "Laserdesignator_03"
         };
     respawnWeapons[] = {
-        "arifle_AK12_GL_trp_aco_snds_F",
+        "arifle_AK12_GL_trp_arco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
         "Throw",
         "Put",
@@ -250,13 +250,13 @@ class I_CA2035_T_Recon_Medic_F : I_CA2035_Recon_Base_F {
     uniformClass = "U_I_CA2035_RegularUniform_tanktop_trp";
 
     weapons[] = {
-        "arifle_AK12_trp_aco_snds_F",
+        "arifle_AK12_trp_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_trp_aco_snds_F",
+        "arifle_AK12_trp_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
@@ -297,13 +297,13 @@ class I_CA2035_T_Recon_M_F : I_CA2035_Recon_Base_F {
     uniformClass = "U_I_CA2035_ReconUniform_trp";
 
     weapons[] = {
-        "srifle_EBR_CA2035_trp_snds_DMS_bipod_F",
+        "srifle_EBR_CA2035_trp_snds_DMS_pointer_bipod_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
         };
     respawnWeapons[] = {
-        "srifle_EBR_CA2035_trp_snds_DMS_bipod_F",
+        "srifle_EBR_CA2035_trp_snds_DMS_pointer_bipod_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
@@ -341,13 +341,13 @@ class I_CA2035_T_Recon_Exp_F : I_CA2035_Recon_Base_F {
     uniformClass = "U_I_CA2035_RegularUniform_tanktop_trp";
 
     weapons[] = {
-        "arifle_AK12_trp_aco_snds_F",
+        "arifle_AK12_trp_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_trp_aco_snds_F",
+        "arifle_AK12_trp_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
@@ -485,13 +485,13 @@ class I_CA2035_T_Recon_DA_F : I_CA2035_T_Recon_F {
     };
 
     weapons[] = {
-        "arifle_Mk20_Black_snds_aco_F",
+        "arifle_Mk20_Black_pointer_snds_aco_F",
         "hgun_Pistol_heavy_01_green_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_Mk20_Black_snds_aco_F",
+        "arifle_Mk20_Black_pointer_snds_aco_F",
         "hgun_Pistol_heavy_01_green_F",
         "Throw",
         "Put"

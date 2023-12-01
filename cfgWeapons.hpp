@@ -418,6 +418,29 @@ class arifle_AK12_trp_aco_snds_F: arifle_AK12_trp_F
         };
     };
 };
+class arifle_AK12_trp_aco_pointer_snds_F: arifle_AK12_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_khk_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_aco";
+            slot="CowsSlot";
+        };
+    };
+};
 class arifle_AK12_trp_mrco_snds_F: arifle_AK12_trp_F
 {
     author="kenoxite";
@@ -519,15 +542,15 @@ class arifle_AK12_trp_arco_pointer_snds_F: arifle_AK12_trp_F
     scope=1;
     class LinkedItems
     {
-        class LinkedItemsAcc
-        {
-            item="acc_pointer_IR";
-            slot="PointerSlot";
-        };
         class LinkedItemsMuzzle
         {
             item="muzzle_snds_B_khk_F";
             slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
         };
         class LinkedItemsOptic
         {
@@ -604,6 +627,29 @@ class arifle_AK12_GL_trp_arco_snds_F: arifle_AK12_GL_trp_F
         };
     };
 };
+class arifle_AK12_GL_trp_arco_pointer_snds_F: arifle_AK12_GL_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_khk_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_lush_F";
+            slot="CowsSlot";
+        };
+    };
+};
 // Legacy compatibility with AK-12 lush configs
 class arifle_AK12_lush_aco_snds_F: arifle_AK12_trp_aco_snds_F {scope=1};
 class arifle_AK12_lush_mrco_snds_F: arifle_AK12_trp_mrco_snds_F {}scope=1;
@@ -636,6 +682,29 @@ class arifle_AK12_sarid_aco_snds_F: arifle_AK12_sarid_F
         {
             item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_aco";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_AK12_sarid_aco_pointer_snds_F: arifle_AK12_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_arid_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
         };
         class LinkedItemsOptic
         {
@@ -745,15 +814,15 @@ class arifle_AK12_sarid_arco_pointer_snds_F: arifle_AK12_sarid_F
     scope=1;
     class LinkedItems
     {
-        class LinkedItemsAcc
-        {
-            item="acc_pointer_IR";
-            slot="PointerSlot";
-        };
         class LinkedItemsMuzzle
         {
             item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
         };
         class LinkedItemsOptic
         {
@@ -822,6 +891,29 @@ class arifle_AK12_GL_sarid_arco_snds_F: arifle_AK12_GL_sarid_F
         {
             item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_Arco_AK_arid_F";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_AK12_GL_sarid_arco_pointer_snds_F: arifle_AK12_GL_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_arid_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
         };
         class LinkedItemsOptic
         {
@@ -934,6 +1026,29 @@ class arifle_RPK12_trp_snds_aco_F: arifle_RPK12_trp_F
         };
     };
 };
+class arifle_RPK12_trp_aco_pointer_snds_F: arifle_RPK12_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_khk_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_aco";
+            slot="CowsSlot";
+        };
+    };
+};
 class arifle_RPK12_trp_snds_mrco_F: arifle_RPK12_trp_F
 {
     author="kenoxite";
@@ -1011,6 +1126,29 @@ class arifle_RPK12_sarid_snds_aco_F: arifle_RPK12_sarid_F
         {
             item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_aco";
+            slot="CowsSlot";
+        };
+    };
+};
+class arifle_RPK12_sarid_aco_pointer_snds_F: arifle_RPK12_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_arid_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
         };
         class LinkedItemsOptic
         {
@@ -1114,6 +1252,30 @@ class arifle_Mk20_Black_snds_aco_F: I_CA2035_arifle_Mk20_Black_F
 			slot="CowsSlot";
 		};
 	};
+};
+
+class arifle_Mk20_Black_pointer_snds_aco_F: I_CA2035_arifle_Mk20_Black_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_M";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_aco";
+            slot="CowsSlot";
+        };
+    };
 };
 
 class arifle_Mk20_Black_snds_mrco_F: I_CA2035_arifle_Mk20_Black_F
@@ -1309,6 +1471,34 @@ class srifle_EBR_CA2035_trp_snds_DMS_bipod_F: srifle_EBR_CA2035_trp_F
     };
 };
 
+class srifle_EBR_CA2035_trp_snds_DMS_pointer_bipod_F: srifle_EBR_CA2035_trp_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_khk_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_DMS";
+            slot="CowsSlot";
+        };
+        class LinkedItemsUnder
+        {
+            item="bipod_01_F_blk";
+            slot="UnderBarrelSlot";
+        };
+    };
+};
 // Mk18 ABR (Semi-Arid)
 class srifle_EBR_CA2035_sarid_F: srifle_EBR_F
 {
@@ -1338,6 +1528,34 @@ class srifle_EBR_CA2035_sarid_snds_DMS_bipod_F: srifle_EBR_CA2035_sarid_F
         {
             item="muzzle_snds_B_arid_F";
             slot="MuzzleSlot";
+        };
+        class LinkedItemsOptic
+        {
+            item="optic_DMS";
+            slot="CowsSlot";
+        };
+        class LinkedItemsUnder
+        {
+            item="bipod_01_F_blk";
+            slot="UnderBarrelSlot";
+        };
+    };
+};
+class srifle_EBR_CA2035_sarid_snds_DMS_pointer_bipod_F: srifle_EBR_CA2035_sarid_F
+{
+    author="kenoxite";
+    scope=1;
+    class LinkedItems
+    {
+        class LinkedItemsMuzzle
+        {
+            item="muzzle_snds_B_arid_F";
+            slot="MuzzleSlot";
+        };
+        class LinkedItemsAcc
+        {
+            item="acc_pointer_IR";
+            slot="PointerSlot";
         };
         class LinkedItemsOptic
         {
@@ -2294,6 +2512,9 @@ class H_HelmetIA_fast_CA2035_base: H_HelmetB_light
     };
 
     ALLOWED_FACEWEAR();
+
+    ace_hearing_protection = 0;  // Protection against deafening (0 to 1, higher means more protection)
+    ace_hearing_lowerVolume = 0;  // Muffling of the sound (0 to 1, higher means more muffling)
 };
 class H_HelmetIA_fast_CA2035_trp: H_HelmetIA_fast_CA2035_base
 {
