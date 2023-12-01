@@ -785,6 +785,8 @@ class I_CA2035_T_WY_55_F : I_Heli_light_03_dynamicLoadout_F {
         "CA2035_TRP",
         1,
         "CA2035_TAN",
+        0,
+        "CA2035_BLACK",
         0
     };
     hiddenSelectionsTextures[]=
@@ -846,10 +848,25 @@ class I_CA2035_T_WY_55_F : I_Heli_light_03_dynamicLoadout_F {
                 "\CA2035\air\heli_light_03\data\heli_light_03_base_CA2035_tan_co.paa"
             };
         };
+        class CA2035_BLACK
+        {
+            author="kenoxite";
+            displayName="$STR_A3_TEXTURESOURCES_BLACK0";
+            factions[]=
+            {
+                "IND_CA2035_T_F",
+                "IND_CA2035_D_F"
+            };
+            textures[]=
+            {                    
+                "\CA2035\air\heli_light_03\data\heli_light_03_base_CA2035_black_co.paa"
+            };
+        };
     };
     
 	class TransportBackpacks
 	{
+        bag_xx(B_Parachute,8);
 		bag_xx(B_FieldPack_green_F,1);
 	};
 	class TransportItems
@@ -968,7 +985,7 @@ class I_CA2035_T_WY_55_Unarmed_F : I_Heli_light_03_unarmed_F {
 	
 	class TransportBackpacks
 	{
-		bag_xx(B_Parachute,6);
+		bag_xx(B_Parachute,8);
 		bag_xx(B_FieldPack_green_F,1);
 	};
 	class TransportItems
