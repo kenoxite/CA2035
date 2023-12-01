@@ -1471,6 +1471,63 @@ class IND_CA2035_D_F
             };
         };
 
+        class I_CA2035_D_APCPlatoon
+        {
+            name="APC Platoon";
+            side=2;
+            faction="IND_CA2035_D_F";
+            icon="\A3\ui_f\data\map\markers\nato\b_armor.paa";
+            class Unit0
+            {
+                side=2;
+                vehicle="I_CA2035_D_APC_Wheeled_03_cannon_F";
+                rank="LIEUTENANT";
+                position[]={0,0,0};
+            };
+            class Unit1
+            {
+                side=2;
+                vehicle="I_CA2035_D_APC_Wheeled_03_cannon_F";
+                rank="SERGEANT";
+                position[]={10,-10,0};
+            };
+            class Unit2
+            {
+                side=2;
+                vehicle="I_CA2035_D_APC_Wheeled_03_cannon_F";
+                rank="SERGEANT";
+                position[]={-10,-10,0};
+            };
+            class Unit3
+            {
+                side=2;
+                vehicle="I_CA2035_D_APC_Wheeled_03_cannon_F";
+                rank="CORPORAL";
+                position[]={20,-20,0};
+            };
+        };
+        class I_CA2035_D_APCSection
+        {
+            name="APC Section";
+            side=2;
+            faction="IND_CA2035_D_F";
+            icon="\A3\ui_f\data\map\markers\nato\b_armor.paa";
+            class Unit0
+            {
+                side=2;
+                vehicle="I_CA2035_D_APC_Wheeled_03_cannon_F";
+                rank="LIEUTENANT";
+                position[]={0,0,0};
+            };
+            class Unit1
+            {
+                side=2;
+                vehicle="I_CA2035_D_APC_Wheeled_03_cannon_F";
+                rank="SERGEANT";
+                position[]={10,-10,0};
+            };
+        };
+
         /*
         class I_CA2035_D_SPGPlatoon_Scorcher
         {

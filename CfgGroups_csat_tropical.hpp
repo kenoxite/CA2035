@@ -1328,6 +1328,64 @@ class OPF_CA2035_F
                 position[]={10,-10,0};
             };
         };
+
+        class O_CA2035_IFVPlatoon
+        {
+            name="IFV Platoon";
+            side=0;
+            faction="OPF_CA2035_F";
+            icon="\A3\ui_f\data\map\markers\nato\o_armor.paa";
+            class Unit0
+            {
+                side=0;
+                vehicle="O_CA2035_APC_Tracked_02_cannon_ghex_F";
+                rank="LIEUTENANT";
+                position[]={0,0,0};
+            };
+            class Unit1
+            {
+                side=0;
+                vehicle="O_CA2035_APC_Tracked_02_cannon_ghex_F";
+                rank="SERGEANT";
+                position[]={10,-10,0};
+            };
+            class Unit2
+            {
+                side=0;
+                vehicle="O_CA2035_APC_Tracked_02_cannon_ghex_F";
+                rank="SERGEANT";
+                position[]={-10,-10,0};
+            };
+            class Unit3
+            {
+                side=0;
+                vehicle="O_CA2035_APC_Tracked_02_cannon_ghex_F";
+                rank="CORPORAL";
+                position[]={20,-20,0};
+            };
+        };
+        class O_CA2035_IFVSection
+        {
+            name="IFV Section";
+            side=0;
+            faction="OPF_CA2035_F";
+            icon="\A3\ui_f\data\map\markers\nato\o_armor.paa";
+            class Unit0
+            {
+                side=0;
+                vehicle="O_CA2035_APC_Tracked_02_cannon_ghex_F";
+                rank="LIEUTENANT";
+                position[]={0,0,0};
+            };
+            class Unit1
+            {
+                side=0;
+                vehicle="O_CA2035_APC_Tracked_02_cannon_ghex_F";
+                rank="SERGEANT";
+                position[]={10,-10,0};
+            };
+        };
+
         class O_CA2035_SPGPlatoon_Scorcher
         {
             name="$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_SPGPlatoon_Scorcher0";
