@@ -880,7 +880,7 @@ class I_CA2035_T_WY_55_F : I_Heli_light_03_dynamicLoadout_F {
 	{
 		mag_xx(30Rnd_762x39_AK12_Mag_F,4);
 		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellGreen,2);
+		mag_xx(SmokeShellYellow,4);
 	};
 	class TransportWeapons
 	{
@@ -999,7 +999,7 @@ class I_CA2035_T_WY_55_Unarmed_F : I_Heli_light_03_unarmed_F {
 	{
 		mag_xx(30Rnd_762x39_AK12_Mag_F,4);
 		mag_xx(SmokeShell,2);
-		mag_xx(SmokeShellGreen,2);
+        mag_xx(SmokeShellYellow,4);
 	};
 	class TransportWeapons
 	{
