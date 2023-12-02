@@ -1413,7 +1413,7 @@ class O_CA2035_crew_F : O_T_crew_F {
     model="\A3\characters_F\OPFOR\o_officer.p3d";
     faction = "OPF_CA2035_F";
 
-    CSAT_CHN_BASE();
+    CSAT_AFR_BASE();
 
     uniformClass = "U_O_CA2035_officer_noInsignia_ghex";
 
@@ -1428,6 +1428,15 @@ class O_CA2035_crew_F : O_T_crew_F {
         mag_2(Chemlight_red)
         };
 
+};
+
+class O_CA2035_crew_CN_F : O_CA2035_crew_F {
+    author = "kenoxite";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Crewman (chinese)";
+
+    CSAT_CHN_BASE();
 };
 
 class O_T_Helipilot_F;
@@ -1471,6 +1480,14 @@ class O_CA2035_Pilot_F : O_T_Pilot_F {
     editorPreview = "\CA2035\opfor\previews\t\O_CA2035_Pilot_F.jpg";
     faction = "OPF_CA2035_F";
 
-    CSAT_CHN_BASE();
+    CSAT_AFR_BASE();
 
+};
+class O_CA2035_Pilot_CN_F : O_CA2035_Pilot_F {
+    author = "kenoxite";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Pilot (chinese)";
+
+    CSAT_CHN_BASE();
 };

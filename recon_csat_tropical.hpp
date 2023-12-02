@@ -58,7 +58,7 @@ class O_CA2035_Recon_Exp_F : O_T_Recon_Exp_F {
     editorPreview = "\CA2035\opfor\previews\t\O_CA2035_Recon_Exp_F.jpg";
     faction = "OPF_CA2035_F";
 
-    CSAT_CHN_RECON_BASE();
+    CSAT_AFR_RECON_BASE();
 
     // uniformClass = "U_O_CA2035_officer_noInsignia_ghex";
     linkedItems[]=
@@ -81,6 +81,15 @@ class O_CA2035_Recon_Exp_F : O_T_Recon_Exp_F {
         "ItemRadio",
         "O_NVGoggles_ghex_F"
     };
+
+};
+class O_CA2035_Recon_Exp_CN_F : O_CA2035_Recon_Exp_F {
+    author = "kenoxite";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Recon Demo Specialist (chinese)";
+
+    CSAT_CHN_RECON_BASE();
 
 };
 
@@ -92,7 +101,7 @@ class O_CA2035_Recon_JTAC_F : O_T_Recon_JTAC_F {
     editorPreview = "\CA2035\opfor\previews\t\O_CA2035_Recon_JTAC_F.jpg";
     faction = "OPF_CA2035_F";
 
-    CSAT_CHN_RECON_BASE();
+    CSAT_AFR_RECON_BASE();
 
     // uniformClass = "U_O_CA2035_officer_noInsignia_ghex";
 
@@ -118,6 +127,15 @@ class O_CA2035_Recon_JTAC_F : O_T_Recon_JTAC_F {
         "ItemRadio",
         "O_NVGoggles_ghex_F"
     };
+
+};
+class O_CA2035_Recon_JTAC_CNF : O_CA2035_Recon_JTAC_F {
+    author = "kenoxite";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Recon JTAC (chinese)";
+
+    CSAT_CHN_RECON_BASE();
 
 };
 
@@ -129,7 +147,7 @@ class O_CA2035_Recon_LAT_F : O_T_Recon_LAT_F {
     editorPreview = "\CA2035\opfor\previews\t\O_CA2035_Recon_LAT_F.jpg";
     faction = "OPF_CA2035_F";
 
-    CSAT_CHN_RECON_BASE();
+    CSAT_AFR_RECON_BASE();
 
     // uniformClass = "U_O_CA2035_officer_noInsignia_ghex";
 
@@ -153,6 +171,15 @@ class O_CA2035_Recon_LAT_F : O_T_Recon_LAT_F {
         "ItemRadio",
         "O_NVGoggles_ghex_F"
     };
+
+};
+class O_CA2035_Recon_LAT_CN_F : O_CA2035_Recon_LAT_F {
+    author = "kenoxite";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Recon Scout (AT) (chinese)";
+
+    CSAT_CHN_RECON_BASE();
 
 };
 
@@ -164,7 +191,7 @@ class O_CA2035_Recon_M_F : O_T_Recon_M_F {
     editorPreview = "\CA2035\opfor\previews\t\O_CA2035_Recon_M_F.jpg";
     faction = "OPF_CA2035_F";
 
-    CSAT_CHN_RECON_BASE();
+    CSAT_AFR_RECON_BASE();
 
     // uniformClass = "U_O_CA2035_officer_noInsignia_ghex";
 
@@ -188,6 +215,15 @@ class O_CA2035_Recon_M_F : O_T_Recon_M_F {
         "ItemRadio",
         "O_NVGoggles_ghex_F"
     };
+
+};
+class O_CA2035_Recon_M_CN_F : O_CA2035_Recon_M_F {
+    author = "kenoxite";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Recon Marksman (chinese)";
+
+    CSAT_CHN_RECON_BASE();
 
 };
 
@@ -199,7 +235,7 @@ class O_CA2035_Recon_Medic_F : O_T_Recon_Medic_F {
     editorPreview = "\CA2035\opfor\previews\t\O_CA2035_Recon_Medic_F.jpg";
     faction = "OPF_CA2035_F";
 
-    CSAT_CHN_RECON_BASE();
+    CSAT_AFR_RECON_BASE();
 
     // uniformClass = "U_O_CA2035_officer_noInsignia_ghex";
 
@@ -225,6 +261,15 @@ class O_CA2035_Recon_Medic_F : O_T_Recon_Medic_F {
     };
 
 };
+class O_CA2035_Recon_Medic_CN_F : O_CA2035_Recon_Medic_F {
+    author = "kenoxite";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Recon Paramedic (chinese)";
+
+    CSAT_CHN_RECON_BASE();
+
+};
 
 class O_T_Recon_TL_F;
 class O_CA2035_Recon_TL_F : O_T_Recon_TL_F {
@@ -234,7 +279,7 @@ class O_CA2035_Recon_TL_F : O_T_Recon_TL_F {
     editorPreview = "\CA2035\opfor\previews\t\O_CA2035_Recon_TL_F.jpg";
     faction = "OPF_CA2035_F";
 
-    CSAT_CHN_RECON_BASE();
+    CSAT_AFR_RECON_BASE();
 
     // uniformClass = "U_O_CA2035_officer_noInsignia_ghex";
 
@@ -260,5 +305,14 @@ class O_CA2035_Recon_TL_F : O_T_Recon_TL_F {
         "ItemRadio",
         "O_NVGoggles_ghex_F"
     };
+
+};
+class O_CA2035_Recon_TL_CN_F : O_CA2035_Recon_TL_F {
+    author = "kenoxite";
+    scope = 2;
+    scopeCurator = 2;
+    displayName = "Recon Team Leader (chinese)";
+
+    CSAT_CHN_RECON_BASE();
 
 };

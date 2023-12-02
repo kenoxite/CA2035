@@ -298,14 +298,14 @@ class OPF_CA2035_F
             class Unit0
             {
                 side=0;
-                vehicle="O_CA2035_recon_TL_F";
+                vehicle="O_CA2035_recon_TL_CN_F";
                 rank="SERGEANT";
                 position[]={0,0,0};
             };
             class Unit1
             {
                 side=0;
-                vehicle="O_CA2035_recon_M_F";
+                vehicle="O_CA2035_recon_M_CN_F";
                 rank="CORPORAL";
                 position[]={5,-5,0};
             };
@@ -333,7 +333,7 @@ class OPF_CA2035_F
             class Unit5
             {
                 side=0;
-                vehicle="O_CA2035_recon_exp_F";
+                vehicle="O_CA2035_Recon_Exp_CN_F";
                 rank="PRIVATE";
                 position[]={15,-15,0};
             };
@@ -347,7 +347,7 @@ class OPF_CA2035_F
             class Unit0
             {
                 side=0;
-                vehicle="O_CA2035_recon_TL_F";
+                vehicle="O_CA2035_recon_TL_CN_F";
                 rank="SERGEANT";
                 position[]={0,0,0};
             };
@@ -403,7 +403,7 @@ class OPF_CA2035_F
             class Unit0
             {
                 side=0;
-                vehicle="O_CA2035_sniper_F";
+                vehicle="O_CA2035_sniper_CN_F";
                 rank="CORPORAL";
                 position[]={0,0,0};
             };

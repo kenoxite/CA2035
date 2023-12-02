@@ -77,7 +77,7 @@ class O_CA2035_APC_Tracked_02_AA_ghex_F : O_T_APC_Tracked_02_AA_ghex_F {
     scope = 2;
     scopeCurator = 2;
     faction = "OPF_CA2035_F";
-	crew="O_CA2035_crew_F";
+	crew="O_CA2035_crew_CN_F";
 	typicalCargo[]=
 	{
 		"O_CA2035_Soldier_F"
@@ -89,7 +89,7 @@ class O_CA2035_APC_Tracked_02_cannon_ghex_F : O_T_APC_Tracked_02_cannon_ghex_F {
     scope = 2;
     scopeCurator = 2;
     faction = "OPF_CA2035_F";
-	crew="O_CA2035_crew_F";
+	crew="O_CA2035_crew_CN_F";
 	typicalCargo[]=
 	{
 		"O_CA2035_Soldier_F"
@@ -117,7 +117,7 @@ class O_CA2035_VTOL_02_infantry_dynamicLoadout_F : O_T_VTOL_02_infantry_dynamicL
     scope = 2;
     scopeCurator = 2;
     faction = "OPF_CA2035_F";
-	crew="O_CA2035_Pilot_F";
+	crew="O_CA2035_Pilot_CN_F";
 	typicalCargo[]=
 	{
 		"O_CA2035_Soldier_F"
@@ -130,7 +130,7 @@ class O_CA2035_VTOL_02_vehicle_dynamicLoadout_F : O_T_VTOL_02_vehicle_dynamicLoa
     scope = 2;
     scopeCurator = 2;
     faction = "OPF_CA2035_F";
-	crew="O_CA2035_Pilot_F";
+	crew="O_CA2035_Pilot_CN_F";
 	typicalCargo[]=
 	{
 		"O_CA2035_Soldier_F"
@@ -506,7 +506,7 @@ class O_CA2035_MBT_02_arty_ghex_F : O_T_MBT_02_arty_ghex_F {
     scope = 2;
     scopeCurator = 2;
     faction = "OPF_CA2035_F";
-	crew="O_CA2035_crew_F";
+	crew="O_CA2035_crew_CN_F";
 	typicalCargo[]=
 	{
 		"O_CA2035_Soldier_F",
