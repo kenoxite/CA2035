@@ -87,7 +87,7 @@ class O_CA2035_Recon_Exp_CN_F : O_CA2035_Recon_Exp_F {
     author = "kenoxite";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Recon Demo Specialist (chinese)";
+    // displayName = "Recon Demo Specialist (chinese)";
 
     CSAT_CHN_RECON_BASE();
 
@@ -133,7 +133,7 @@ class O_CA2035_Recon_JTAC_CNF : O_CA2035_Recon_JTAC_F {
     author = "kenoxite";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Recon JTAC (chinese)";
+    // displayName = "Recon JTAC (chinese)";
 
     CSAT_CHN_RECON_BASE();
 
@@ -177,7 +177,7 @@ class O_CA2035_Recon_LAT_CN_F : O_CA2035_Recon_LAT_F {
     author = "kenoxite";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Recon Scout (AT) (chinese)";
+    // displayName = "Recon Scout (AT) (chinese)";
 
     CSAT_CHN_RECON_BASE();
 
@@ -221,7 +221,7 @@ class O_CA2035_Recon_M_CN_F : O_CA2035_Recon_M_F {
     author = "kenoxite";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Recon Marksman (chinese)";
+    // displayName = "Recon Marksman (chinese)";
 
     CSAT_CHN_RECON_BASE();
 
@@ -265,7 +265,7 @@ class O_CA2035_Recon_Medic_CN_F : O_CA2035_Recon_Medic_F {
     author = "kenoxite";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Recon Paramedic (chinese)";
+    // displayName = "Recon Paramedic (chinese)";
 
     CSAT_CHN_RECON_BASE();
 
@@ -311,7 +311,7 @@ class O_CA2035_Recon_TL_CN_F : O_CA2035_Recon_TL_F {
     author = "kenoxite";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Recon Team Leader (chinese)";
+    // displayName = "Recon Team Leader (chinese)";
 
     CSAT_CHN_RECON_BASE();
 

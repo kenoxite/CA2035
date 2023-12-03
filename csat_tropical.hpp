@@ -1434,7 +1434,7 @@ class O_CA2035_crew_CN_F : O_CA2035_crew_F {
     author = "kenoxite";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Crewman (chinese)";
+    // displayName = "Crewman (chinese)";
 
     CSAT_CHN_BASE();
 };
@@ -1487,7 +1487,7 @@ class O_CA2035_Pilot_CN_F : O_CA2035_Pilot_F {
     author = "kenoxite";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Pilot (chinese)";
+    // displayName = "Pilot (chinese)";
 
     CSAT_CHN_BASE();
 };

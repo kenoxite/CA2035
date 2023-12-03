@@ -29,7 +29,7 @@ class O_CA2035_Sniper_CN_F : O_CA2035_Sniper_F {
     author = "kenoxite";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Sniper (chinese)";
+    // displayName = "Sniper (chinese)";
 
     CSAT_CHN_SNIPER_BASE();
 
@@ -50,7 +50,7 @@ class O_CA2035_Spotter_CN_F : O_CA2035_Spotter_F {
     author = "kenoxite";
     scope = 2;
     scopeCurator = 2;
-    displayName = "Spotter (chinese)";
+    // displayName = "Spotter (chinese)";
 
     CSAT_CHN_SNIPER_BASE();
 
