@@ -744,12 +744,12 @@ class I_CA2035_T_Strider_F : I_MRAP_03_F {
 		mag_xx(SmokeShell,6);
 		mag_xx(1Rnd_HE_Grenade_shell,10);
 		mag_xx(10Rnd_9x21_Mag,12);
-		mag_xx(RPG7_F,2);
 		mag_xx(RPG32_F,4);
 	};
 	class TransportWeapons
 	{
 		weap_xx(arifle_AK12_F,2);
+        weap_xx(launch_RPG32_green_F,1);
 	};
 };
 // WY-55
@@ -1707,7 +1707,6 @@ class I_CA2035_T_Zamak_Ammo_F : I_Truck_02_Ammo_F {
 		mag_xx(SmokeShell,8);
 		mag_xx(SmokeShellGreen,8);
 		mag_xx(SmokeShellPurple,8);
-		mag_xx(RPG7_F,12);
 		mag_xx(RPG32_F,12);
 		mag_xx(Titan_AT,4);
 		mag_xx(Titan_AP,4);
@@ -2055,7 +2054,6 @@ class I_CA2035_T_APC_Wheeled_03_cannon_F : I_APC_Wheeled_03_cannon_F {
 		mag_xx(SmokeShell,8);
 		mag_xx(SmokeShellGreen,8);
 		mag_xx(SmokeShellPurple,8);
-		mag_xx(RPG7_F,3);
 		mag_xx(RPG32_F,6);
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
@@ -2734,7 +2732,6 @@ class I_CA2035_T_MSE_3_F : O_APC_Wheeled_02_rcws_v2_F {
         mag_xx(SmokeShell,8);
         mag_xx(SmokeShellGreen,8);
         mag_xx(SmokeShellPurple,8);
-        mag_xx(RPG7_F,3);
         mag_xx(RPG32_F,6);
         mag_xx(Titan_AT,2);
         mag_xx(Titan_AP,2);
