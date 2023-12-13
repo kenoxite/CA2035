@@ -104,13 +104,13 @@ class I_CA2035_T_Recon_AR_F : I_CA2035_Recon_Base_F {
     uniformClass = "U_I_CA2035_RegularUniform_tanktop_trp";
 
     weapons[] = {
-        "arifle_RPK12_sarid_aco_pointer_snds_F",
+        "arifle_RPK12_trp_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
         };
     respawnWeapons[] = {
-        "arifle_RPK12_sarid_aco_pointer_snds_F",
+        "arifle_RPK12_trp_aco_pointer_snds_F",
         "hgun_Pistol_heavy_01_green_F",
 		"Throw",
 		"Put"
