@@ -62,6 +62,9 @@
 #define UNIFORM_RECON_ARD() \
 		"\CA2035\indep\data\i_CA2035_ard3_clothing_new_co.paa"
 
+#define UNIFORM_RECON_BLACK() \
+        "\CA2035\indep\data\i_CA2035_black_clothing_new_co.paa"
+
 
 #define UNIFORM_SNIPER_WDL() \
         "\CA2035\indep\data\i_CA2035_wdl1_clothing_new_co.paa", \

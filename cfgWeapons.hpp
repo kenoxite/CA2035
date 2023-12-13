@@ -1941,6 +1941,26 @@ class U_I_CA2035_ReconUniform_ard: U_I_CA2035_ReconUniform_wdl
 	};
 };
 
+class U_I_CA2035_ReconUniform_black: U_I_CA2035_ReconUniform_wdl
+{
+    author="kenoxite";
+    scope=2;
+    displayName="Combat Fatigues (Black)";
+    picture="\CA2035\characters\data\ui\icon_U_I_CA2035_ReconUniform_trp.paa";
+    hiddenSelectionsTextures[]=
+    {
+        "\CA2035\Common\Suitpacks\data\suitpack_CA2035_trp_co.paa"
+    };
+    class ItemInfo: UniformItem
+    {
+        uniformModel="-";
+        uniformClass="I_CA2035_Recon_Black_UnifBase";
+        containerClass="Supply40";
+        mass=40;
+    };
+};
+
+
 // Heli Pilot Coveralls
 class U_I_CA2035_HeliPilotCoveralls: U_I_CA2035_RegularUniform_wdl
 {

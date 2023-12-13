@@ -565,6 +565,24 @@ class I_CA2035_Recon_ARD_UnifBase : I_CA2035_Recon_Base_F {
     };
 };
 
+class I_CA2035_Recon_Black_UnifBase : I_CA2035_Recon_Base_F {
+    author = "kenoxite";
+    scope = 1;
+    scopeCurator = 1;
+
+    model="\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d"; // short sleeve new
+    uniformClass = "U_I_CA2035_ReconUniform_black";
+    hiddenSelections[]=
+    {
+        "Camo",
+        "insignia"
+    };
+    hiddenSelectionsTextures[]=
+    {
+        UNIFORM_RECON_BLACK();
+    };
+};
+
 // SNIPERS
 
 class I_CA2035_Sniper_Base_F : I_CA2035_Recon_Base_F {

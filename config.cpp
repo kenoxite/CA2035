@@ -425,6 +425,7 @@ class CfgPatches
               "Item_I_CA2035_ReconUniform_wdl",
               "Item_I_CA2035_ReconUniform_trp",
               "Item_I_CA2035_ReconUniform_ard",
+              "Item_I_CA2035_ReconUniform_black",
 
               "Item_I_CA2035_RegularUniform_wdl_tanktop",
               "Item_I_CA2035_RegularUniform_trp_tanktop",
@@ -529,6 +530,7 @@ class CfgPatches
               "U_I_CA2035_ReconUniform_wdl",
               "U_I_CA2035_ReconUniform_trp",
               "U_I_CA2035_ReconUniform_ard",
+              "U_I_CA2035_ReconUniform_black",
 
               "U_I_CA2035_RegularUniform_tanktop_wdl",
               "U_I_CA2035_RegularUniform_tanktop_trp",

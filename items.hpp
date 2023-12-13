@@ -220,6 +220,22 @@ class Item_I_CA2035_ReconUniform_ard: Item_I_CA2035_ReconUniform_wdl
     };
 };
 
+class Item_I_CA2035_ReconUniform_black: Item_I_CA2035_ReconUniform_wdl
+{
+    author="kenoxite";
+    scope=2;
+    scopeCurator=2;
+    displayName="Combat Fatigues (Black)";
+    class TransportItems
+    {
+        class Item_I_CA2035_ReconUniform_black
+        {
+            name="U_I_CA2035_ReconUniform_black";
+            count=1;
+        };
+    };
+};
+
 
 // Heli Pilot Coveralls
 class Item_I_CA2035_HeliPilotCoveralls: Item_I_CA2035_RegularUniform_wdl
