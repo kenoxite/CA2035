@@ -181,6 +181,45 @@ class I_CA2035_T_Quad_Bike_F : B_T_Quadbike_01_F {
     };
 };
 // Offroad HMG
+/*
+// ["I_G_Offroad_01_armed_F","Offroad_01_armed_base_F","Offroad_01_military_base_F","Offroad_01_base_F","Car_F","Car","LandVehicle","Land","AllVehicles","All"]
+class LandVehicle;
+class Car: LandVehicle {
+    class NewTurret;
+};
+class Car_F: Car {
+    class NewTurret: NewTurret
+    {
+    };
+};
+class Offroad_01_base_F: Car_F {
+    class NewTurret: NewTurret
+    {
+    };
+    class Turrets: Turrets
+    {
+        class MainTurret: NewTurret;
+    };
+};
+class Offroad_01_military_base_F: Offroad_01_base_F {
+    class Turrets: Turrets
+    {
+        class MainTurret: NewTurret;
+    };
+};
+class Offroad_01_armed_base_F: Offroad_01_military_base_F {
+    class Turrets: Turrets
+    {
+        class M2_Turret: MainTurret;
+    };
+};
+class I_G_Offroad_01_armed_F: Offroad_01_armed_base_F {
+    class Turrets: Turrets
+    {
+        class M2_Turret: MainTurret;
+    };
+};
+*/
 class I_G_Offroad_01_armed_F;
 class I_CA2035_T_Offroad_HMG_F : I_G_Offroad_01_armed_F {
     author = "kenoxite";
@@ -306,6 +345,15 @@ class I_CA2035_T_Offroad_HMG_F : I_G_Offroad_01_armed_F {
 	{
 		weap_xx(arifle_AK12_F,1);
 	};
+
+/*    class Turrets: Turrets
+    {
+        class M2_Turret: M2_Turret
+        {
+            maxHorizontalRotSpeed = 1.5;
+            maxVerticalRotSpeed = 1.5;
+        };
+    }; */
 };
 // Offroad
 class I_G_Offroad_01_F;

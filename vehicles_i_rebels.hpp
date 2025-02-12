@@ -45,7 +45,7 @@ class I_G_CA2035_Offroad_AT_F : I_G_Offroad_01_AT_F {
         "I_G_CA2035_Soldier_F"
     };
 };
-// Offroad AT
+// Offroad Repair
 class I_G_Offroad_01_repair_F;
 class I_G_CA2035_Offroad_repair_F : I_G_Offroad_01_repair_F {
     author = "kenoxite";

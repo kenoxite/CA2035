@@ -960,4 +960,11 @@ class O_CA2035_Soldier_UnifBase : O_officer_F {
     {
         "\CA2035\opfor\data\U_O_CA2035_officer_noInsignia_ghex.paa"
     };
+
+    class Wounds
+    {
+        tex[]={};
+        mat[] = {"A3\Characters_F\OPFOR\Data\officer_noInsignia.rvmat","A3\Characters_F\OPFOR\Data\officer_injury_noinsignia.rvmat","A3\Characters_F\OPFOR\Data\officer_injury_noinsignia.rvmat"};
+    };
+
 };

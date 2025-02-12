@@ -1,4 +1,4 @@
-#define VERSION "1.3"
+#define VERSION "1.4"
 
 #include "basicDefines.hpp"
 #include "definitions.hpp"
@@ -462,6 +462,8 @@ class CfgPatches
               "Vest_V_HarnessO_CA2035_wdl",
 
               "Headgear_H_Cap_O_CA2035_ghex",
+              "Headgear_H_Cap_O_CA2035_trp",
+              "Headgear_H_Cap_O_CA2035_ard",
 
               "Headgear_H_Bandanna_hs_CA2035_wdl",
               "Headgear_H_Bandanna_hs_CA2035_trp",
@@ -478,6 +480,8 @@ class CfgPatches
               "Headgear_H_HelmetIA_CA2035_wdl",
               "Headgear_H_HelmetIA_CA2035_trp",
               "Headgear_H_HelmetIA_CA2035_ard",
+              "Headgear_H_HelmetIA_CA2035_ard2",
+              "Headgear_H_HelmetIA_CA2035_ghex",
 
               "Headgear_H_HelmetIA_fast_CA2035_trp",
               "Headgear_H_HelmetIA_fast_CA2035_ard",
@@ -547,6 +551,8 @@ class CfgPatches
               "U_I_G_CA2035_Rebel_2",
 
               "H_Cap_O_CA2035_ghex",
+              "H_Cap_O_CA2035_trp",
+              "H_Cap_O_CA2035_ard",
 
               "H_Bandanna_hs_CA2035_wdl",
               "H_Bandanna_hs_CA2035_trp",
@@ -563,6 +569,8 @@ class CfgPatches
               "H_HelmetIA_CA2035_wdl",
               "H_HelmetIA_CA2035_trp",
               "H_HelmetIA_CA2035_ard",
+              "H_HelmetIA_CA2035_ard2",
+              "H_HelmetIA_CA2035_ghex",
 
               "H_HelmetIA_fast_CA2035_trp",
               "H_HelmetIA_fast_CA2035_ard",
@@ -766,6 +774,7 @@ class CfgVehicles
 
     // INFANTRY
     class I_Soldier_base_F;
+    class O_Soldier_base_F;
 
     // LanguageENG_F
     // LanguagePER_F

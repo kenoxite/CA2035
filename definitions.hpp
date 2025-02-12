@@ -119,6 +119,10 @@
 		"\CA2035\indep\data\headgear_helmet_canvas_CA2035_trp2_co.paa"
 #define HELMET_ARD() \
 		"\CA2035\indep\data\headgear_helmet_canvas_CA2035_ard3_co.paa"
+#define HELMET_ARD2() \
+        "\CA2035\indep\data\headgear_helmet_canvas_CA2035_ard4_co.paa"
+#define HELMET_GHEX() \
+        "\CA2035\indep\data\headgear_helmet_canvas_CA2035_ghex_co.paa"
 
 #define HELMET_FAST_TRP() \
         "\CA2035\indep\data\equip1_CA2035_trp_co.paa"
@@ -235,10 +239,15 @@
 #define RANDOM_HEADGEAR() \
 		headgearList[]= \
 		{ \
-			"", 0.3, \
-			"H_FakeHeadgear_CA2035", 0.1, \
-			"H_HelmetIA_CA2035_wdl", 1 \
-			"H_HelmetIA_CA2035_trp", 1 \
+            "", 0.3, \
+            "H_Bandanna_sgg_CA2035", 0.01, \
+            "H_Bandanna_camo_CA2035", 0.01, \
+            "H_Cap_grn_army_CA2035", 0.03, \
+            "H_Cap_oli_CA2035", 0.03, \
+            "H_Cap_O_CA2035_trp", 0.03, \
+            "H_Booniehat_oli_CA2035", 0.02, \
+			"H_FakeHeadgear_CA2035", 0.005, \
+			"H_HelmetIA_CA2035_wdl", 0.3 \
 		}; \
 		class EventHandlers: EventHandlers \
 		{ \
@@ -248,10 +257,14 @@
 #define RANDOM_HEADGEAR_ARID() \
 		headgearList[]= \
 		{ \
-			"", 0.3, \
-			"H_FakeHeadgear_CA2035", 0.1, \
-			"H_HelmetIA_CA2035_wdl", 1 \
-			"H_HelmetIA_CA2035_ard", 1 \
+            "", 0.5, \
+            "H_Bandanna_cbr_CA2035", 0.01, \
+            "H_Bandanna_mcamo_CA2035", 0.01, \
+            "H_Booniehat_khk_CA2035", 0.02, \
+            "H_Cap_tan_CA2035", 0.03, \
+            "H_Cap_O_CA2035_ard", 0.03, \
+			"H_FakeHeadgear_CA2035", 0.005, \
+            "H_HelmetIA_CA2035_ard2", 0.3 \
 		}; \
 		class EventHandlers: EventHandlers \
 		{ \
@@ -261,7 +274,6 @@
 #define RANDOM_HEADGEAR_RECON_TROPIC() \
 		headgearList[]= \
 		{ \
-			"", 0.25, \
 			"H_Booniehat_CA2035_trp", 0.25, \
 			"H_Bandanna_hs_CA2035_wdl", 0.1, \
 			"H_Bandanna_hs_CA2035_trp", 0.5, \

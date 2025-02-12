@@ -619,6 +619,48 @@ class Headgear_H_Cap_O_CA2035_ghex: Headgear_Base_F
     };
 };
 
+// Cap (Tropic) 
+class Headgear_H_Cap_O_CA2035_trp: Headgear_Base_F
+{
+    scope=2;
+    scopeCurator=2;
+    displayName="Cap (Tropic)";
+    author="kenoxite";
+    editorCategory="EdCat_Equipment";
+    editorSubcategory="EdSubcat_Hats";
+    vehicleClass="ItemsHeadgear";
+    model="\A3\Weapons_F\DummyCap.p3d";
+    class TransportItems
+    {
+        class H_Cap_O_CA2035_trp
+        {
+            name="H_Cap_O_CA2035_trp";
+            count=1;
+        };
+    };
+};
+
+// Cap (Semi-Arid) 
+class Headgear_H_Cap_O_CA2035_ard: Headgear_Base_F
+{
+    scope=2;
+    scopeCurator=2;
+    displayName="Cap (Semi-Arid)";
+    author="kenoxite";
+    editorCategory="EdCat_Equipment";
+    editorSubcategory="EdSubcat_Hats";
+    vehicleClass="ItemsHeadgear";
+    model="\A3\Weapons_F\DummyCap.p3d";
+    class TransportItems
+    {
+        class H_Cap_O_CA2035_ard
+        {
+            name="H_Cap_O_CA2035_ard";
+            count=1;
+        };
+    };
+};
+
 // Bandana (Woodland, Headset)
 class Headgear_H_Bandanna_hs_CA2035_wdl: Headgear_Base_F
 {
@@ -870,6 +912,48 @@ class Headgear_H_HelmetIA_CA2035_ard: Headgear_Base_F
         class H_HelmetIA_CA2035_ard
         {
             name="H_HelmetIA_CA2035_ard";
+            count=1;
+        };
+    };
+};
+
+// Modular Helmet (Semi-Arid - Alt)
+class Headgear_H_HelmetIA_CA2035_ard2: Headgear_Base_F
+{
+    scope=2;
+    scopeCurator=2;
+    displayName="Modular Helmet (Semi-Arid Alt)";
+    author="kenoxite";
+    editorCategory="EdCat_Equipment";
+    editorSubcategory="EdSubcat_Hats";
+    vehicleClass="ItemsHeadgear";
+    model="\A3\Weapons_F\DummyCap.p3d";
+    class TransportItems
+    {
+        class H_HelmetIA_CA2035_ard2
+        {
+            name="H_HelmetIA_CA2035_ard2";
+            count=1;
+        };
+    };
+};
+
+// Modular Helmet (Green Hex)
+class Headgear_H_HelmetIA_CA2035_ghex: Headgear_Base_F
+{
+    scope=2;
+    scopeCurator=2;
+    displayName="Modular Helmet (Green Hex)";
+    author="kenoxite";
+    editorCategory="EdCat_Equipment";
+    editorSubcategory="EdSubcat_Hats";
+    vehicleClass="ItemsHeadgear";
+    model="\A3\Weapons_F\DummyCap.p3d";
+    class TransportItems
+    {
+        class H_HelmetIA_CA2035_ghex
+        {
+            name="H_HelmetIA_CA2035_ghex";
             count=1;
         };
     };

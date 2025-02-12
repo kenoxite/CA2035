@@ -17,14 +17,16 @@
 #define CSAT_RANDOM_HEADGEAR() \
     headgearList[]= \
     { \
-        "", 0, \
-        "H_Cap_O_CA2035_ghex", 0.5 \
-        "H_MilCap_ghex_F", 1 \
+        "", 0.5, \
+        "H_Cap_O_CA2035_ghex", 0.5, \
+        "H_HelmetIA_CA2035_ghex", 0.1, \
+        "H_MilCap_ghex_F", 0.03 \
     }; \
     class EventHandlers \
     { \
         init="if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};"; \
     }
+
 /*
 class O_CA2035_Soldier_lite_F : O_T_Soldier_F {
     author = "kenoxite";
@@ -94,6 +96,7 @@ class O_CA2035_Soldier_F : O_T_Soldier_F {
     faction = "OPF_CA2035_F";
 
     CSAT_AFR_BASE();
+    CSAT_RANDOM_HEADGEAR();
 
     uniformClass = "U_O_CA2035_officer_noInsignia_ghex";
 
@@ -540,7 +543,8 @@ class O_CA2035_soldier_SL_F : O_T_soldier_SL_F {
     linkedItems[] = 
     {
         "V_TacVest_oli",
-        "H_MilCap_ghex_F",
+        "H_HelmetIA_CA2035_ghex",
+        //"H_MilCap_ghex_F",
         // "H_HelmetLeaderO_ghex_F",
         "ItemMap",
         "ItemRadio",

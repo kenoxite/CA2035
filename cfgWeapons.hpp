@@ -2172,9 +2172,9 @@ class H_Cap_blu_CA2035: H_Cap_blu
 };
 class H_Cap_grn_CA2035: H_Cap_grn
 {
-	author="kenoxite";
-	scope=1;
-	ALLOWED_FACEWEAR_CIV();
+    author="kenoxite";
+    scope=1;
+    ALLOWED_FACEWEAR_CIV();
 };
 class H_Cap_blk_CA2035: H_Cap_blk
 {
@@ -2187,6 +2187,69 @@ class H_Cap_grn_BI_CA2035: H_Cap_grn_BI
 	author="kenoxite";
 	scope=1;
 	ALLOWED_FACEWEAR_CIV();
+};
+
+class H_Cap_oli;
+class H_Cap_tan;
+class H_Booniehat_oli;
+class H_Bandanna_sgg;
+class H_Bandanna_camo;
+class H_Bandanna_cbr;
+class H_Bandanna_mcamo;
+
+class H_Cap_grn_army_CA2035: H_Cap_grn
+{
+    author="kenoxite";
+    scope=1;
+    ALLOWED_FACEWEAR();
+};
+class H_Cap_oli_CA2035: H_Cap_oli
+{
+    author="kenoxite";
+    scope=1;
+    ALLOWED_FACEWEAR();
+};
+class H_Cap_tan_CA2035: H_Cap_tan
+{
+    author="kenoxite";
+    scope=1;
+    ALLOWED_FACEWEAR();
+};
+class H_Booniehat_oli_CA2035: H_Booniehat_oli
+{
+    author="kenoxite";
+    scope=1;
+    ALLOWED_FACEWEAR();
+};
+class H_Bandanna_sgg_CA2035: H_Bandanna_sgg
+{
+    author="kenoxite";
+    scope=1;
+    ALLOWED_FACEWEAR();
+};
+class H_Bandanna_camo_CA2035: H_Bandanna_camo
+{
+    author="kenoxite";
+    scope=1;
+    ALLOWED_FACEWEAR();
+};
+class H_Bandanna_cbr_CA2035: H_Bandanna_cbr
+{
+    author="kenoxite";
+    scope=1;
+    ALLOWED_FACEWEAR();
+};
+class H_Bandanna_mcamo_CA2035: H_Bandanna_mcamo
+{
+    author="kenoxite";
+    scope=1;
+    ALLOWED_FACEWEAR();
+};
+class H_Booniehat_khk_CA2035: H_Booniehat_khk
+{
+    author="kenoxite";
+    scope=1;
+    ALLOWED_FACEWEAR();
 };
 
 
@@ -2233,6 +2296,43 @@ class H_Cap_O_CA2035_ghex: H_Cap_CA2035_base
 		uniformModel="\A3\Characters_F\common\capb";
 	};
 };
+
+class H_Cap_O_CA2035_trp: H_Cap_CA2035_base
+{
+    author="kenoxite";
+    scope=2;
+    weaponPoolAvailable=2;
+    displayName="Cap (Tropic)";
+    picture="\CA2035\characters\data\ui\icon_H_Cap_O_CA2035_ghex.paa";
+    model="\A3\Characters_F\common\capb";
+    hiddenSelectionsTextures[]=
+    {
+        "\CA2035\common\data\capb_CA2035_trp2_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="\A3\Characters_F\common\capb";
+    };
+};
+
+class H_Cap_O_CA2035_ard: H_Cap_CA2035_base
+{
+    author="kenoxite";
+    scope=2;
+    weaponPoolAvailable=2;
+    displayName="Cap (Semi-Arid)";
+    picture="\CA2035\characters\data\ui\icon_H_Cap_O_CA2035_ghex.paa";
+    model="\A3\Characters_F\common\capb";
+    hiddenSelectionsTextures[]=
+    {
+        "\CA2035\common\data\capb_CA2035_ard3_co.paa"
+    };
+    class ItemInfo: ItemInfo
+    {
+        uniformModel="\A3\Characters_F\common\capb";
+    };
+};
+
 
 // Head Bandanas
 class H_Bandanna_hs_CA2035_base: H_Bandanna_khk_hs
@@ -2490,6 +2590,32 @@ class H_HelmetIA_CA2035_ard: H_HelmetIA_CA2035_wdl
 	{
 		HELMET_ARD();
 	};
+};
+class H_HelmetIA_CA2035_ard2: H_HelmetIA_CA2035_wdl
+{
+    author="kenoxite";
+    scope=2;
+    weaponPoolAvailable=2;
+    displayName="Modular Helmet (Semi-Arid Alt)";
+    picture="\CA2035\characters\data\ui\icon_H_HelmetIA_CA2035_ard.paa";
+    hiddenSelectionsTextures[]=
+    {
+        HELMET_ARD2();
+    };
+};
+
+
+class H_HelmetIA_CA2035_ghex: H_HelmetIA_CA2035_wdl
+{
+    author="kenoxite";
+    scope=2;
+    weaponPoolAvailable=2;
+    displayName="Modular Helmet (Green Hex)";
+    picture="\CA2035\characters\data\ui\icon_H_HelmetIA_CA2035_ard.paa";
+    hiddenSelectionsTextures[]=
+    {
+        HELMET_GHEX();
+    };
 };
 
 // Fast helmet
@@ -2959,7 +3085,6 @@ class V_HarnessO_CA2035_wdl: V_Base_HarnessO_CA2035
 // ITEMS
 // ************
 
-class ItemCore;
 class UavTerminal_base: ItemCore
 {
     class ItemInfo;
