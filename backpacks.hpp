@@ -33,6 +33,7 @@ class B_TacticalPack_rgr;
 class B_Carryall_green_F;
 class B_Carryall_oli;
 class B_Carryall_cbr;
+class B_FieldPack_ghex_F;
 
 class B_FieldPack_green_F_CA2035: B_FieldPack_green_F
 {
@@ -123,7 +124,7 @@ class B_FieldPack_LAT_Trp: B_FieldPack_oli
     scope = 1;
     class TransportMagazines
     {
-        mag_xx(RPG32_F,2);
+        mag_xx(RPG32_HE_F,2);
     };
 	class TransportItems
 	{
@@ -135,11 +136,23 @@ class B_FieldPack_LAT_Ard: B_FieldPack_khk
     scope = 1;
     class TransportMagazines
     {
-        mag_xx(RPG32_F,2);
+        mag_xx(RPG32_HE_F,2);
     };
 	class TransportItems
 	{
 	};
+};
+
+class B_FieldPack_LAT2_Ard: B_FieldPack_khk
+{
+    scope = 1;
+    class TransportMagazines
+    {
+        mag_xx(RPG7_F,2);
+    };
+    class TransportItems
+    {
+    };
 };
 
 class B_FieldPack_LAT2_Trp: B_FieldPack_green_F
@@ -154,12 +167,12 @@ class B_FieldPack_LAT2_Trp: B_FieldPack_green_F
     };
 };
 
-class B_FieldPack_LAT2_Ard: B_FieldPack_khk
+class B_FieldPack_LAT_Ghex: B_FieldPack_ghex_F
 {
     scope = 1;
     class TransportMagazines
     {
-        mag_xx(RPG7_F,2);
+        mag_xx(RPG32_HE_F,2);
     };
     class TransportItems
     {

@@ -766,7 +766,7 @@ class I_CA2035_T_Soldier_LAT_F : I_CA2035_T_Soldier_F {
         "ItemWatch"
     };
 
-    // backpack = "B_FieldPack_LAT_Trp";
+    backpack = "B_FieldPack_LAT_Trp";
 
     weapons[] = {
         "arifle_AK12_fl_F",

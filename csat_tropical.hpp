@@ -480,6 +480,7 @@ class O_CA2035_soldier_LAT_F : O_T_soldier_LAT_F {
     CSAT_RANDOM_HEADGEAR();
 
     uniformClass = "U_O_CA2035_officer_noInsignia_ghex";
+    backpack = "B_FieldPack_LAT_Ghex";
 
     linkedItems[] = 
     {

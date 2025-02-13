@@ -428,7 +428,7 @@ class I_CA2035_D_Soldier_LAT_F : I_CA2035_T_Soldier_LAT_F {
 
     uniformClass = "U_I_CA2035_RegularUniform_ard";
 
-    // backpack = "B_FieldPack_LAT_Ard";
+    backpack = "B_FieldPack_LAT_Ard";
 
 };
 

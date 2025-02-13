@@ -77,7 +77,7 @@ class O_CA2035_APC_Tracked_02_AA_ghex_F : O_T_APC_Tracked_02_AA_ghex_F {
     scope = 2;
     scopeCurator = 2;
     faction = "OPF_CA2035_F";
-	crew="O_CA2035_crew_CN_F";
+	crew="O_CA2035_crew_F";
 	typicalCargo[]=
 	{
 		"O_CA2035_Soldier_F"
@@ -89,7 +89,7 @@ class O_CA2035_APC_Tracked_02_cannon_ghex_F : O_T_APC_Tracked_02_cannon_ghex_F {
     scope = 2;
     scopeCurator = 2;
     faction = "OPF_CA2035_F";
-	crew="O_CA2035_crew_CN_F";
+	crew="O_CA2035_crew_F";
 	typicalCargo[]=
 	{
 		"O_CA2035_Soldier_F"

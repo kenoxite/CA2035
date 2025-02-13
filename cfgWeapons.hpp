@@ -2303,7 +2303,7 @@ class H_Cap_O_CA2035_trp: H_Cap_CA2035_base
     scope=2;
     weaponPoolAvailable=2;
     displayName="Cap (Tropic)";
-    picture="\CA2035\characters\data\ui\icon_H_Cap_O_CA2035_ghex.paa";
+    picture="\CA2035\characters\data\ui\icon_H_Cap_O_CA2035_trp.paa";
     model="\A3\Characters_F\common\capb";
     hiddenSelectionsTextures[]=
     {
@@ -2321,7 +2321,7 @@ class H_Cap_O_CA2035_ard: H_Cap_CA2035_base
     scope=2;
     weaponPoolAvailable=2;
     displayName="Cap (Semi-Arid)";
-    picture="\CA2035\characters\data\ui\icon_H_Cap_O_CA2035_ghex.paa";
+    picture="\CA2035\characters\data\ui\icon_H_Cap_O_CA2035_ard.paa";
     model="\A3\Characters_F\common\capb";
     hiddenSelectionsTextures[]=
     {
@@ -2597,7 +2597,7 @@ class H_HelmetIA_CA2035_ard2: H_HelmetIA_CA2035_wdl
     scope=2;
     weaponPoolAvailable=2;
     displayName="Modular Helmet (Semi-Arid Alt)";
-    picture="\CA2035\characters\data\ui\icon_H_HelmetIA_CA2035_ard.paa";
+    picture="\CA2035\characters\data\ui\icon_H_HelmetIA_CA2035_ard2.paa";
     hiddenSelectionsTextures[]=
     {
         HELMET_ARD2();
@@ -2611,7 +2611,7 @@ class H_HelmetIA_CA2035_ghex: H_HelmetIA_CA2035_wdl
     scope=2;
     weaponPoolAvailable=2;
     displayName="Modular Helmet (Green Hex)";
-    picture="\CA2035\characters\data\ui\icon_H_HelmetIA_CA2035_ard.paa";
+    picture="\CA2035\characters\data\ui\icon_H_HelmetIA_CA2035_ghex.paa";
     hiddenSelectionsTextures[]=
     {
         HELMET_GHEX();
