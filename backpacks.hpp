@@ -124,7 +124,8 @@ class B_FieldPack_LAT_Trp: B_FieldPack_oli
     scope = 1;
     class TransportMagazines
     {
-        mag_xx(RPG32_HE_F,2);
+        mag_xx(RPG32_F,1);
+        mag_xx(RPG32_HE_F,1);
     };
 	class TransportItems
 	{
@@ -136,7 +137,8 @@ class B_FieldPack_LAT_Ard: B_FieldPack_khk
     scope = 1;
     class TransportMagazines
     {
-        mag_xx(RPG32_HE_F,2);
+        mag_xx(RPG32_F,1);
+        mag_xx(RPG32_HE_F,1);
     };
 	class TransportItems
 	{
