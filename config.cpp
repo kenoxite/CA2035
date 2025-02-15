@@ -460,6 +460,7 @@ class CfgPatches
               "Vest_V_PlateCarrierIA2_CA2035_green",
 
               "Vest_V_HarnessO_CA2035_wdl",
+              "Vest_V_HarnessO_CA2035_ard",
 
               "Headgear_H_Cap_O_CA2035_ghex",
               "Headgear_H_Cap_O_CA2035_trp",
@@ -595,6 +596,7 @@ class CfgPatches
               "V_PlateCarrierIA2_CA2035_green",
 
               "V_HarnessO_CA2035_wdl",
+              "V_HarnessO_CA2035_ard",
 
               "I_CA2035_UavTerminal",
 

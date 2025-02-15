@@ -467,7 +467,7 @@ class IND_CA2035_D_F_SupportBox : Box_NATO_Support_F {
         item_xx(H_MilCap_CA2035_ard,10);
         item_xx(ItemGPS,10);
         item_xx(B_Carryall_Ammo_Ard,10);
-        item_xx(V_HarnessO_brn,10);
+        item_xx(V_HarnessO_CA2035_ard,10);
         item_xx(B_Carryall_AAA_Ard,10);
         item_xx(Rangefinder,10);
         item_xx(B_TacticalPack_AAR_Ard,10);
@@ -585,7 +585,7 @@ class IND_CA2035_D_F_SupplyBox : B_SupplyCrate_F {
         item_xx(H_MilCap_CA2035_ard,10);
         item_xx(ItemGPS,10);
         item_xx(B_Carryall_Ammo_Ard,10);
-        item_xx(V_HarnessO_brn,10);
+        item_xx(V_HarnessO_CA2035_ard,10);
         item_xx(B_Carryall_AAA_Ard,10);
         item_xx(Rangefinder,10);
         item_xx(B_TacticalPack_AAR_Ard,10);

@@ -590,6 +590,25 @@ class Vest_V_HarnessO_CA2035_wdl: Vest_Base_F
         };
     };
 };
+class Vest_V_HarnessO_CA2035_ard: Vest_V_HarnessO_CA2035_wdl
+{
+    author="kenoxite";
+    displayName="LBV Harness (Semi-Arid)";
+    modelSides[]={0,1,2,3};
+    editorCategory="EdCat_Equipment";
+    editorSubcategory="EdSubcat_Vests";
+    scope=2;
+    scopeCurator=2;
+    vehicleClass="ItemsVests";
+    class TransportItems
+    {
+        class Item_V_HarnessO_CA2035_ard
+        {
+            name="V_HarnessO_CA2035_ard";
+            count=1;
+        };
+    };
+};
 
 
 

@@ -3080,6 +3080,21 @@ class V_HarnessO_CA2035_wdl: V_Base_HarnessO_CA2035
 	};
 };
 
+class V_HarnessO_CA2035_ard: V_HarnessO_CA2035_wdl
+{
+    author="kenoxite";
+    scope=2;
+    weaponPoolAvailable=2;
+    displayName="LBV Harness (Semi-Arid)";
+    picture="\CA2035\characters\data\ui\icon_V_HarnessO_CA2035_ard.paa";
+    modelSides[]={0,1,2,3};
+    hiddenSelectionsTextures[]=
+    {
+        "\CA2035\indep\data\clothing_CA2035_ard_co.paa",
+        "\CA2035\indep\data\tech_CA2035_ard_co.paa"
+    };
+};
+
 
 // ************
 // ITEMS

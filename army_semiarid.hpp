@@ -17,7 +17,7 @@
 #define ARMY_ARID_EQUIPEMENT() \
     linkedItems[]= \
     { \
-        "V_HarnessO_brn", \
+        "V_HarnessO_CA2035_ard", \
         "H_HelmetIA_CA2035_ard", \
         "ItemMap", \
         "ItemRadio", \
@@ -26,7 +26,7 @@
     }; \
     respawnLinkedItems[]= \
     { \
-        "V_HarnessO_brn", \
+        "V_HarnessO_CA2035_ard", \
         "H_HelmetIA_CA2035_ard", \
         "ItemMap", \
         "ItemRadio", \
