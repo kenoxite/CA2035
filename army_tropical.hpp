@@ -144,12 +144,12 @@ class I_CA2035_T_Engineer_F : I_CA2035_T_Soldier_F {
     backpack = "B_Carryall_Engineer_Trp";
 
     weapons[] = {
-        "arifle_AK12_F",
+        "arifle_AK12_fl_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_F",
+        "arifle_AK12_fl_F",
         "Throw",
         "Put"
         };
@@ -428,13 +428,13 @@ class I_CA2035_T_Soldier_AA_F : I_CA2035_T_Soldier_F {
     backpack = "B_FieldPack_AA_Trp";
 
     weapons[] = {
-        "arifle_AK12_F",
+        "arifle_AK12_fl_F",
         "launch_B_Titan_olive_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_F",
+        "arifle_AK12_fl_F",
         "launch_B_Titan_olive_F",
         "Throw",
         "Put"
@@ -669,13 +669,13 @@ class I_CA2035_T_Soldier_AT_F : I_CA2035_T_Soldier_F {
     backpack = "B_FieldPack_AT_Trp";
 
     weapons[] = {
-        "arifle_AK12_F",
+        "arifle_AK12_fl_F",
         "launch_B_Titan_short_tna_F",
         "Throw",
         "Put"
         };
     respawnWeapons[] = {
-        "arifle_AK12_F",
+        "arifle_AK12_fl_F",
         "launch_B_Titan_short_tna_F",
         "Throw",
         "Put"
