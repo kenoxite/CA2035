@@ -1,4 +1,4 @@
-#define VERSION "1.4.2"
+#define VERSION "1.5"
 
 #include "basicDefines.hpp"
 #include "definitions.hpp"
