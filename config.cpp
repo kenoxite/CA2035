@@ -755,8 +755,7 @@ class CfgPatches
         name = "2035 Central Africa";
         author = "kenoxite";
         authors[] = {
-            "kenoxite",
-            "krzychuzokecia"
+            "kenoxite"
         };
         // url = "";
         version = VERSION;
