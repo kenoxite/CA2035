@@ -1991,7 +1991,7 @@ class U_I_CA2035_GhillieSuit_wdl: Uniform_Base
 {
 	author="kenoxite";
 	scope=2;
-	displayName="Guillie Suit (Woodland)";
+	displayName="Ghillie Suit (Woodland)";
     picture="\CA2035\characters\data\ui\icon_U_I_CA2035_GhillieSuit_wdl.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[]=
@@ -2015,7 +2015,7 @@ class U_I_CA2035_GhillieSuit_trp: U_I_CA2035_GhillieSuit_wdl
 {
 	author="kenoxite";
 	scope=2;
-	displayName="Guillie Suit (Tropic)";
+	displayName="Ghillie Suit (Tropic)";
     picture="\CA2035\characters\data\ui\icon_U_I_CA2035_GhillieSuit_trp.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelectionsTextures[]=
@@ -2035,7 +2035,7 @@ class U_I_CA2035_GhillieSuit_ard: U_I_CA2035_GhillieSuit_wdl
 {
 	author="kenoxite";
 	scope=2;
-	displayName="Guillie Suit (Semi-Arid)";
+	displayName="Ghillie Suit (Semi-Arid)";
     picture="\CA2035\characters\data\ui\icon_U_I_CA2035_GhillieSuit_ard.paa";
 	model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelectionsTextures[]=
