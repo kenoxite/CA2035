@@ -223,8 +223,8 @@ class I_G_Offroad_01_armed_F: Offroad_01_armed_base_F {
 class I_G_Offroad_01_armed_F;
 class I_CA2035_T_Offroad_HMG_F : I_G_Offroad_01_armed_F {
     author = "kenoxite";
-    scope = 1;
-    scopeCurator = 1;
+    scope = 2;
+    scopeCurator = 2;
     // displayName = "Offroad (HMG)";
     side = 2;
     faction = "IND_CA2035_T_F";
@@ -312,15 +312,17 @@ class I_CA2035_T_Offroad_HMG_F : I_G_Offroad_01_armed_F {
 		"HideBumper2",
 		0,
 		"HideDoor1",
-		0,
-		"HideDoor2",
-		0,
-		"HideDoor3",
 		0.3,
+		"HideDoor2",
+		0.3,
+		"HideDoor3",
+		1,
+        "hideconstruction",
+        0,
 		"HideBackpacks",
-		1,
+		0.3,
 		"Hide_Shield",
-		1,
+		0,
 		"Hide_Rail",
 		0
 	};
@@ -2245,6 +2247,7 @@ class I_CA2035_T_Offroad_02_unarmed_F : C_Offroad_02_unarmed_F {
 	};
 };
 
+// MB 4WD - AT
 class I_C_Offroad_02_AT_F;
 class I_CA2035_T_Offroad_02_AT_F : I_C_Offroad_02_AT_F {
     author = "kenoxite";
@@ -2379,6 +2382,7 @@ class I_CA2035_T_Offroad_02_AT_F : I_C_Offroad_02_AT_F {
     };
 };
 
+// MB 4WD - LMG
 class I_C_Offroad_02_LMG_F;
 class I_CA2035_T_Offroad_02_LMG_F : I_C_Offroad_02_LMG_F {
     author = "kenoxite";

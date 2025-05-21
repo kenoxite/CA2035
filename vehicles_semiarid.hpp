@@ -51,8 +51,8 @@ class I_CA2035_D_Quad_Bike_F : I_CA2035_T_Quad_Bike_F {
 class I_CA2035_D_Offroad_HMG_F : I_CA2035_T_Offroad_HMG_F {
     author = "kenoxite";
     editorPreview = "\CA2035\indep\previews\d\I_CA2035_D_Offroad_HMG_F.jpg";
-    scope = 1;
-    scopeCurator = 1;
+    scope = 2;
+    scopeCurator = 2;
     faction = "IND_CA2035_D_F";
     crew = "I_CA2035_D_Soldier_F";
 
@@ -508,6 +508,7 @@ class I_CA2035_D_Offroad_02_unarmed_F : I_CA2035_T_Offroad_02_unarmed_F {
 	};
 };
 
+// MB 4WD - AT
 class I_CA2035_D_Offroad_02_AT_F : I_CA2035_T_Offroad_02_AT_F {
     author = "kenoxite";
     scope = 2;
@@ -535,6 +536,7 @@ class I_CA2035_D_Offroad_02_AT_F : I_CA2035_T_Offroad_02_AT_F {
 	};
 };
 
+// MB 4WD - LMG
 class I_CA2035_D_Offroad_02_LMG_F : I_CA2035_T_Offroad_02_LMG_F {
     author = "kenoxite";
     scope = 2;
