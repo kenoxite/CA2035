@@ -262,7 +262,7 @@ class Item_I_CA2035_HeliPilotCoveralls: Item_I_CA2035_RegularUniform_wdl
 class Item_I_CA2035_GhillieSuit_wdl: Item_I_CA2035_RegularUniform_wdl
 {
     author="kenoxite";
-    displayName="Guillie Suit (Woodland)";
+    displayName="Ghillie Suit (Woodland)";
     model="\A3\Weapons_f\dummyweapon.p3d";
     editorCategory="EdCat_Equipment";
     editorSubcategory="EdSubcat_Uniforms";
@@ -284,7 +284,7 @@ class Item_I_CA2035_GhillieSuit_trp: Item_I_CA2035_GhillieSuit_wdl
     author="kenoxite";
     scope=2;
     scopeCurator=2;
-    displayName="Guillie Suit (Tropic)";
+    displayName="Ghillie Suit (Tropic)";
     class TransportItems
     {
         class Item_I_CA2035_GhillieSuit_trp
@@ -300,7 +300,7 @@ class Item_I_CA2035_GhillieSuit_ard: Item_I_CA2035_GhillieSuit_wdl
     author="kenoxite";
     scope=2;
     scopeCurator=2;
-    displayName="Guillie Suit (Semi-Arid)";
+    displayName="Ghillie Suit (Semi-Arid)";
     class TransportItems
     {
         class Item_I_CA2035_GhillieSuit_ard
