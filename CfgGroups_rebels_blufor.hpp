@@ -138,4 +138,29 @@ class IND_CA2035_G_F
             };
         };
     };
+    class Motorized
+    {
+        name="$STR_A3_CfgGroups_West_BLU_F_Motorized0";
+        class TechnicalSection
+        {
+            name="Technical Section";
+            side=2;
+            faction="IND_CA2035_D_F";
+            icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+            class Unit0
+            {
+                side=2;
+                vehicle="I_CA2035_D_Offroad_HMG_F";
+                rank="SERGEANT";
+                position[]={0,0,0};
+            };
+            class Unit1
+            {
+                side=2;
+                vehicle="I_CA2035_D_Offroad_HMG_F";
+                rank="CORPORAL";
+                position[]={10,-10,0};
+            };
+        };
+    };
 };

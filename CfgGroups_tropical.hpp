@@ -1091,6 +1091,48 @@ class IND_CA2035_T_F
                 position[]={-5,-14,0};
             };
         };
+        class I_CA2035_T_TechnicalSection
+        {
+            name="Technical Section";
+            side=2;
+            faction="IND_CA2035_T_F";
+            icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+            class Unit0
+            {
+                side=2;
+                vehicle="I_CA2035_T_Offroad_HMG_F";
+                rank="SERGEANT";
+                position[]={0,0,0};
+            };
+            class Unit1
+            {
+                side=2;
+                vehicle="I_CA2035_T_Offroad_HMG_F";
+                rank="CORPORAL";
+                position[]={10,-10,0};
+            };
+        };
+        class I_CA2035_T_TechnicalSectionMixed
+        {
+            name="Technical Section (Mixed)";
+            side=2;
+            faction="IND_CA2035_T_F";
+            icon="\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+            class Unit0
+            {
+                side=2;
+                vehicle="I_CA2035_T_Offroad_HMG_F";
+                rank="SERGEANT";
+                position[]={0,0,0};
+            };
+            class Unit1
+            {
+                side=2;
+                vehicle="I_CA2035_T_Offroad_02_AT_F";
+                rank="CORPORAL";
+                position[]={10,-10,0};
+            };
+        };
     };
     class Mechanized
     {
